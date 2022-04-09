@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/wil6210/wil6210.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ath/wil6210/wil6210.ko drivers/net/wireless/ath/wil6210/wil6210.o drivers/net/wireless/ath/wil6210/wil6210.mod.o;  true

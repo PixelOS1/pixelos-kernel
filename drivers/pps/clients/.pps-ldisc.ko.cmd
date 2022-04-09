@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-ldisc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pps/clients/pps-ldisc.ko drivers/pps/clients/pps-ldisc.o drivers/pps/clients/pps-ldisc.mod.o;  true

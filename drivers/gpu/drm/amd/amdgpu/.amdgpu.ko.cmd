@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/amd/amdgpu/amdgpu.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/amd/amdgpu/amdgpu.ko drivers/gpu/drm/amd/amdgpu/amdgpu.o drivers/gpu/drm/amd/amdgpu/amdgpu.mod.o;  true

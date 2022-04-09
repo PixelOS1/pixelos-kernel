@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/mb1232.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/proximity/mb1232.ko drivers/iio/proximity/mb1232.o drivers/iio/proximity/mb1232.mod.o;  true

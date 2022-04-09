@@ -1,0 +1,1 @@
+cmd_drivers/hid/built-in.a := echo >/dev/null; rm -f drivers/hid/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/hid/built-in.a drivers/hid/hid-core.o drivers/hid/hid-input.o drivers/hid/hid-quirks.o drivers/hid/hid-debug.o drivers/hid/hidraw.o drivers/hid/hid-generic.o drivers/hid/hid-magicmouse.o drivers/hid/hid-ntrig.o drivers/hid/usbhid/built-in.a

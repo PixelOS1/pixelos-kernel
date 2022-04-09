@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sst-bxt-rt298.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-sst-bxt-rt298.ko sound/soc/intel/boards/snd-soc-sst-bxt-rt298.o sound/soc/intel/boards/snd-soc-sst-bxt-rt298.mod.o;  true

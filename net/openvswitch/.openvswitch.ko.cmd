@@ -1,0 +1,1 @@
+cmd_net/openvswitch/openvswitch.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/openvswitch/openvswitch.ko net/openvswitch/openvswitch.o net/openvswitch/openvswitch.mod.o;  true

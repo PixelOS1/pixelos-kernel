@@ -1,0 +1,1 @@
+cmd_drivers/ata/pata_it821x.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ata/pata_it821x.ko drivers/ata/pata_it821x.o drivers/ata/pata_it821x.mod.o;  true

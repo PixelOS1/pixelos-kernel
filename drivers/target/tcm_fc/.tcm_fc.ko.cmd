@@ -1,0 +1,1 @@
+cmd_drivers/target/tcm_fc/tcm_fc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/target/tcm_fc/tcm_fc.ko drivers/target/tcm_fc/tcm_fc.o drivers/target/tcm_fc/tcm_fc.mod.o;  true

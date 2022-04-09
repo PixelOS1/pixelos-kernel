@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/google/gve/gve.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/google/gve/gve.ko drivers/net/ethernet/google/gve/gve.o drivers/net/ethernet/google/gve/gve.mod.o;  true

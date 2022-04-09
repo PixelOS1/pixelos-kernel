@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci_legacy.mod := { echo  drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci_legacy.o;  echo; } > drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci_legacy.mod

@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/mmc_block.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mmc/core/mmc_block.ko drivers/mmc/core/mmc_block.o drivers/mmc/core/mmc_block.mod.o;  true

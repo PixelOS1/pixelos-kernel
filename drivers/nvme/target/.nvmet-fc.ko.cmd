@@ -1,0 +1,1 @@
+cmd_drivers/nvme/target/nvmet-fc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/nvme/target/nvmet-fc.ko drivers/nvme/target/nvmet-fc.o drivers/nvme/target/nvmet-fc.mod.o;  true

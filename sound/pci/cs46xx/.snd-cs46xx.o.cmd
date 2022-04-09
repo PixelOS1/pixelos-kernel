@@ -1,0 +1,1 @@
+cmd_sound/pci/cs46xx/snd-cs46xx.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o sound/pci/cs46xx/snd-cs46xx.o sound/pci/cs46xx/cs46xx.o sound/pci/cs46xx/cs46xx_lib.o sound/pci/cs46xx/dsp_spos.o sound/pci/cs46xx/dsp_spos_scb_lib.o

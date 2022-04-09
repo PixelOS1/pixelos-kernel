@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/sched_main.o drivers/gpu/drm/scheduler/sched_fence.o drivers/gpu/drm/scheduler/sched_entity.o

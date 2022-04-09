@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/inline_crypto/modules.order := {   cat drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/modules.order; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/chelsio/inline_crypto/modules.order

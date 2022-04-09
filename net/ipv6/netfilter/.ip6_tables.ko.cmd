@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6_tables.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/ip6_tables.ko net/ipv6/netfilter/ip6_tables.o net/ipv6/netfilter/ip6_tables.mod.o;  true

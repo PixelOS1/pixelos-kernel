@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o drivers/net/wireless/mediatek/mt76/mt76_connac_mac.o

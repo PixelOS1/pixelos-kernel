@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/sun/modules.order := {   echo drivers/net/ethernet/sun/sunhme.ko;   echo drivers/net/ethernet/sun/sungem.ko;   echo drivers/net/ethernet/sun/cassini.ko;   echo drivers/net/ethernet/sun/niu.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/sun/modules.order

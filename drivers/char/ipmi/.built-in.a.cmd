@@ -1,0 +1,1 @@
+cmd_drivers/char/ipmi/built-in.a := echo >/dev/null; rm -f drivers/char/ipmi/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/char/ipmi/built-in.a drivers/char/ipmi/ipmi_dmi.o drivers/char/ipmi/ipmi_plat_data.o

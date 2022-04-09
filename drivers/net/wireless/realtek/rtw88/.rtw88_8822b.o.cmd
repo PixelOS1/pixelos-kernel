@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtw88/rtw88_8822b.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/wireless/realtek/rtw88/rtw88_8822b.o drivers/net/wireless/realtek/rtw88/rtw8822b.o drivers/net/wireless/realtek/rtw88/rtw8822b_table.o

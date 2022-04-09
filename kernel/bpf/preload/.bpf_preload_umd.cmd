@@ -1,0 +1,1 @@
+cmd_kernel/bpf/preload/bpf_preload_umd := x86_64-pc-linux-gnu-gcc -m64   -o kernel/bpf/preload/bpf_preload_umd kernel/bpf/preload/iterators/iterators.o /usr/src/linux-5.17.1-gentoo-r1/kernel/bpf/preload/libbpf/libbpf.a -lelf -lz

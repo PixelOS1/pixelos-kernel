@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/acpi-cpufreq.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/acpi-cpufreq.ko drivers/cpufreq/acpi-cpufreq.o drivers/cpufreq/acpi-cpufreq.mod.o;  true

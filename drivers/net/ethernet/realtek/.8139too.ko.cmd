@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/8139too.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/realtek/8139too.ko drivers/net/ethernet/realtek/8139too.o drivers/net/ethernet/realtek/8139too.mod.o;  true

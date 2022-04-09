@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/usbtmc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/class/usbtmc.ko drivers/usb/class/usbtmc.o drivers/usb/class/usbtmc.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/xen/xen-gntdev.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/xen/xen-gntdev.ko drivers/xen/xen-gntdev.o drivers/xen/xen-gntdev.mod.o;  true

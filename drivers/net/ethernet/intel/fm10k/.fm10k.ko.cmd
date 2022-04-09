@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/fm10k/fm10k.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/intel/fm10k/fm10k.ko drivers/net/ethernet/intel/fm10k/fm10k.o drivers/net/ethernet/intel/fm10k/fm10k.mod.o;  true

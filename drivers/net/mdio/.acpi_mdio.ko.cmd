@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio/acpi_mdio.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/acpi_mdio.ko drivers/net/mdio/acpi_mdio.o drivers/net/mdio/acpi_mdio.mod.o;  true

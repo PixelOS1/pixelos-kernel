@@ -1,0 +1,1 @@
+cmd_sound/core/seq/oss/snd-seq-oss.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/core/seq/oss/snd-seq-oss.ko sound/core/seq/oss/snd-seq-oss.o sound/core/seq/oss/snd-seq-oss.mod.o;  true

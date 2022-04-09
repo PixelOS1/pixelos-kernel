@@ -1,0 +1,1 @@
+cmd_lib/crypto/libcurve25519-generic.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o lib/crypto/libcurve25519-generic.ko lib/crypto/libcurve25519-generic.o lib/crypto/libcurve25519-generic.mod.o;  true

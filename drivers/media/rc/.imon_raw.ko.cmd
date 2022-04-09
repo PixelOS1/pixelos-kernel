@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/imon_raw.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/imon_raw.ko drivers/media/rc/imon_raw.o drivers/media/rc/imon_raw.mod.o;  true

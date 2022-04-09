@@ -1,0 +1,177 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0x73fec674, "param_ops_uint" },
+	{ 0x8d45de86, "compat_ptr_ioctl" },
+	{ 0x45a41106, "noop_llseek" },
+	{ 0x6dfc7bec, "pci_unregister_driver" },
+	{ 0x6091b333, "unregister_chrdev_region" },
+	{ 0xe8edfbf3, "genl_unregister_family" },
+	{ 0x4195254f, "class_destroy" },
+	{ 0xe0befba6, "__pci_register_driver" },
+	{ 0xfefa012f, "genl_register_family" },
+	{ 0x1aafecfe, "__class_create" },
+	{ 0xe3ec2f2b, "alloc_chrdev_region" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0xa2edd8e6, "dma_map_sg_attrs" },
+	{ 0xeb9e913d, "sgl_alloc_order" },
+	{ 0x6a03751f, "sgl_free_order" },
+	{ 0x33124284, "dma_unmap_sg_attrs" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0xf414a440, "kmem_cache_alloc_trace" },
+	{ 0x2a0fd129, "kmalloc_caches" },
+	{ 0x2f2c95c4, "flush_work" },
+	{ 0xf5fa5da, "cdev_del" },
+	{ 0x90ce49bd, "device_destroy" },
+	{ 0x4dce8ff3, "device_create" },
+	{ 0x884584bc, "scsi_remove_host" },
+	{ 0x3b09f2ee, "cdev_add" },
+	{ 0xacb32f2d, "cdev_init" },
+	{ 0x7b37d4a7, "_find_first_zero_bit" },
+	{ 0xff2c858a, "scsi_scan_host" },
+	{ 0x1079e933, "scsi_add_host_with_dma" },
+	{ 0x678b96ec, "dma_pool_alloc" },
+	{ 0x3ec726dd, "dma_pool_create" },
+	{ 0xff3b6bff, "kmem_cache_alloc" },
+	{ 0x6f3cb84f, "kmem_cache_create" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xb8b9f817, "kmalloc_order_trace" },
+	{ 0xea3c74e, "tasklet_kill" },
+	{ 0x248d35c7, "dma_alloc_attrs" },
+	{ 0x2364c85a, "tasklet_init" },
+	{ 0xc08ec5a9, "scsi_host_put" },
+	{ 0xe9a18439, "pci_save_state" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0xfb578fc5, "memset" },
+	{ 0x8e1a7e66, "scsi_host_alloc" },
+	{ 0x3e53ff7e, "dma_set_coherent_mask" },
+	{ 0xedc03953, "iounmap" },
+	{ 0xa3c11bf8, "dma_set_mask" },
+	{ 0xa193af22, "pci_set_master" },
+	{ 0x3c3cb4a8, "pci_release_regions" },
+	{ 0x607013d5, "pci_iomap" },
+	{ 0xd5652091, "pci_disable_device" },
+	{ 0x4aded579, "pci_request_regions" },
+	{ 0xa5008494, "pci_enable_device" },
+	{ 0x8af62e49, "_dev_err" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0x1000e51, "schedule" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xdd4b8dcd, "scsi_unblock_requests" },
+	{ 0x9d2ab8ac, "__tasklet_schedule" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0xe0fde42, "pci_restore_state" },
+	{ 0xbe277c8f, "scsi_dma_map" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x953e1b9e, "ktime_get_real_seconds" },
+	{ 0x4cebcbb0, "scsi_report_bus_reset" },
+	{ 0x57a7c0c9, "sdev_prefix_printk" },
+	{ 0x25974000, "wait_for_completion" },
+	{ 0x608741b5, "__init_swait_queue_head" },
+	{ 0x4c9d28b0, "phys_base" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0xf08c4261, "dev_driver_string" },
+	{ 0xff1aff93, "dma_map_page_attrs" },
+	{ 0xc31db0ce, "is_vmalloc_addr" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0xa6257a2f, "complete" },
+	{ 0x40b38a0f, "scmd_printk" },
+	{ 0x41e0ed3d, "scsi_done" },
+	{ 0x808e24ea, "scsi_dma_unmap" },
+	{ 0xd72e1b44, "dma_unmap_page_attrs" },
+	{ 0xbf022713, "scsi_add_device" },
+	{ 0x9a96adff, "scsi_device_put" },
+	{ 0x66e829a5, "scsi_remove_device" },
+	{ 0x5ac4b094, "scsi_device_get" },
+	{ 0x2295b0d6, "kmem_cache_destroy" },
+	{ 0xf9744d28, "kmem_cache_free" },
+	{ 0xb5aa7165, "dma_pool_destroy" },
+	{ 0x2f7754a8, "dma_pool_free" },
+	{ 0x7d466a68, "scsi_block_requests" },
+	{ 0x40a4c25b, "_dev_info" },
+	{ 0xbbd529c5, "pci_read_config_word" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x9f0537a8, "kfree_skb_reason" },
+	{ 0x6e33c5e0, "netlink_broadcast" },
+	{ 0xf88cf3ce, "init_net" },
+	{ 0x7d11271e, "nla_put" },
+	{ 0xfc10662e, "genlmsg_put" },
+	{ 0xbff772e, "__alloc_skb" },
+	{ 0x13c49cc2, "_copy_from_user" },
+	{ 0x87b8798d, "sg_next" },
+	{ 0x6b10bee1, "_copy_to_user" },
+	{ 0x88db9f48, "__check_object_size" },
+	{ 0x7cd8d75e, "page_offset_base" },
+	{ 0x97651e6c, "vmemmap_base" },
+	{ 0xe2c17b5d, "__SCT__might_resched" },
+	{ 0xc6cbbc89, "capable" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0x7dd49bd0, "fasync_helper" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x7f1218d3, "blk_queue_max_hw_sectors" },
+	{ 0xec743ea0, "blk_queue_rq_timeout" },
+	{ 0xf2cb9e35, "scsi_change_queue_depth" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x754d539c, "strlen" },
+	{ 0x6a6e05bf, "kstrtou8" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xaf8b32c5, "dma_free_attrs" },
+	{ 0x92d5838e, "request_threaded_irq" },
+	{ 0x4204d49b, "pci_alloc_irq_vectors_affinity" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0xd35cce70, "_raw_spin_unlock_irqrestore" },
+	{ 0x65487097, "__x86_indirect_thunk_rax" },
+	{ 0x34db050b, "_raw_spin_lock_irqsave" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0x92997ed8, "_printk" },
+	{ 0x24d273d1, "add_timer" },
+	{ 0xa78af5f3, "ioread32" },
+	{ 0x4a453f53, "iowrite32" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0xb0e1b529, "pci_free_irq_vectors" },
+	{ 0xc1514a3b, "free_irq" },
+	{ 0x3903862d, "pci_irq_vector" },
+	{ 0xbdfb6dbb, "__fentry__" },
+};
+
+MODULE_INFO(depends, "");
+
+MODULE_ALIAS("pci:v000011F8d00005220sv*sd*bc*sc*i*");
+
+MODULE_INFO(srcversion, "52CF103E067211268AD59C8");

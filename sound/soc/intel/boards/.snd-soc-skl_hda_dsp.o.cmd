@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-skl_hda_dsp.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o sound/soc/intel/boards/snd-soc-skl_hda_dsp.o sound/soc/intel/boards/skl_hda_dsp_generic.o sound/soc/intel/boards/skl_hda_dsp_common.o

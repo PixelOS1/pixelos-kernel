@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_mac.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipset/ip_set_hash_mac.ko net/netfilter/ipset/ip_set_hash_mac.o net/netfilter/ipset/ip_set_hash_mac.mod.o;  true

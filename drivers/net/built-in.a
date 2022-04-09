@@ -1,0 +1,12 @@
+!<thin>
+//                                              108       `
+loopback.o/
+phy/mdio-boardinfo.o/
+phy/mii_timestamper.o/
+phy/sfp-bus.o/
+wireless/ti/wilink_platform_data.o/
+/0              0           0     0     644     15080     `
+/12             0           0     0     644     6528      `
+/34             0           0     0     644     9624      `
+/57             0           0     0     644     40320     `
+/72             0           0     0     644     3576      `

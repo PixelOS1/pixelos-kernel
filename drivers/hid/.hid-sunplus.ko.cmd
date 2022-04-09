@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sunplus.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-sunplus.ko drivers/hid/hid-sunplus.o drivers/hid/hid-sunplus.mod.o;  true

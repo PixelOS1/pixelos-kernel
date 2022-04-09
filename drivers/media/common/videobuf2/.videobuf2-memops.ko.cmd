@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-memops.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/common/videobuf2/videobuf2-memops.ko drivers/media/common/videobuf2/videobuf2-memops.o drivers/media/common/videobuf2/videobuf2-memops.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/spi/modules.order := {   echo drivers/spi/spi-mux.ko;   echo drivers/spi/spidev.ko;   echo drivers/spi/spi-pxa2xx-platform.ko;   echo drivers/spi/spi-pxa2xx-pci.ko;   echo drivers/spi/spi-amd.ko; :; } | awk '!x[$$0]++' - > drivers/spi/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/modules.order := {   echo drivers/input/gameport/gameport.ko;   echo drivers/input/gameport/emu10k1-gp.ko;   echo drivers/input/gameport/fm801-gp.ko;   echo drivers/input/gameport/lightning.ko;   echo drivers/input/gameport/ns558.ko; :; } | awk '!x[$$0]++' - > drivers/input/gameport/modules.order

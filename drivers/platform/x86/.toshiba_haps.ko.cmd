@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/toshiba_haps.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/toshiba_haps.ko drivers/platform/x86/toshiba_haps.o drivers/platform/x86/toshiba_haps.mod.o;  true

@@ -1,0 +1,2 @@
+net/core/selftests.o
+

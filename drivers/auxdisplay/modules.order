@@ -1,0 +1,6 @@
+drivers/auxdisplay/charlcd.ko
+drivers/auxdisplay/hd44780_common.ko
+drivers/auxdisplay/ks0108.ko
+drivers/auxdisplay/cfag12864b.ko
+drivers/auxdisplay/cfag12864bfb.ko
+drivers/auxdisplay/hd44780.ko

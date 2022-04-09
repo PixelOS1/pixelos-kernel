@@ -1,0 +1,1 @@
+cmd_drivers/input/rmi4/modules.order := {   echo drivers/input/rmi4/rmi_core.ko;   echo drivers/input/rmi4/rmi_i2c.ko;   echo drivers/input/rmi4/rmi_spi.ko;   echo drivers/input/rmi4/rmi_smbus.ko; :; } | awk '!x[$$0]++' - > drivers/input/rmi4/modules.order

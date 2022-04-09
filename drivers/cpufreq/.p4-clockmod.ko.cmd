@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/p4-clockmod.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/p4-clockmod.ko drivers/cpufreq/p4-clockmod.o drivers/cpufreq/p4-clockmod.mod.o;  true

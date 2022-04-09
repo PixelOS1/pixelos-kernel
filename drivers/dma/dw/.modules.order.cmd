@@ -1,0 +1,1 @@
+cmd_drivers/dma/dw/modules.order := {   echo drivers/dma/dw/dw_dmac_core.ko;   echo drivers/dma/dw/dw_dmac.ko;   echo drivers/dma/dw/dw_dmac_pci.ko; :; } | awk '!x[$$0]++' - > drivers/dma/dw/modules.order

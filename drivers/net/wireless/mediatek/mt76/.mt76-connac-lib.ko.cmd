@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76-connac-lib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt76-connac-lib.ko drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o drivers/net/wireless/mediatek/mt76/mt76-connac-lib.mod.o;  true

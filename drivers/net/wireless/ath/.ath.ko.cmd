@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ath/ath.ko drivers/net/wireless/ath/ath.o drivers/net/wireless/ath/ath.mod.o;  true

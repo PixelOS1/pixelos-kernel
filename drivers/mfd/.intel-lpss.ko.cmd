@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel-lpss.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mfd/intel-lpss.ko drivers/mfd/intel-lpss.o drivers/mfd/intel-lpss.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-region-hash.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-region-hash.ko drivers/md/dm-region-hash.o drivers/md/dm-region-hash.mod.o;  true

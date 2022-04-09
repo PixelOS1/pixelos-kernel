@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/microchip.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/microchip.ko drivers/net/phy/microchip.o drivers/net/phy/microchip.mod.o;  true

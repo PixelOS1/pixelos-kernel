@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/ch_ipsec.mod := { echo  drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/chcr_ipsec.o;  echo; } > drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/ch_ipsec.mod

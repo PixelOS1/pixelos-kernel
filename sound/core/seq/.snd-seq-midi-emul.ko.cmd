@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-midi-emul.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/core/seq/snd-seq-midi-emul.ko sound/core/seq/snd-seq-midi-emul.o sound/core/seq/snd-seq-midi-emul.mod.o;  true

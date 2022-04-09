@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cypress_firmware.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/common/cypress_firmware.ko drivers/media/common/cypress_firmware.o drivers/media/common/cypress_firmware.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/acp_audio_dma.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/acp_audio_dma.ko sound/soc/amd/acp_audio_dma.o sound/soc/amd/acp_audio_dma.mod.o;  true

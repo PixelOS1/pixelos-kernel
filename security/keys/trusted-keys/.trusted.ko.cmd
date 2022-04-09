@@ -1,0 +1,1 @@
+cmd_security/keys/trusted-keys/trusted.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o security/keys/trusted-keys/trusted.ko security/keys/trusted-keys/trusted.o security/keys/trusted-keys/trusted.mod.o;  true

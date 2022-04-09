@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/int3401_thermal.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/thermal/intel/int340x_thermal/int3401_thermal.ko drivers/thermal/intel/int340x_thermal/int3401_thermal.o drivers/thermal/intel/int340x_thermal/int3401_thermal.mod.o;  true

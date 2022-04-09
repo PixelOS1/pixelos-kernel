@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/max6875.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/eeprom/max6875.ko drivers/misc/eeprom/max6875.o drivers/misc/eeprom/max6875.mod.o;  true

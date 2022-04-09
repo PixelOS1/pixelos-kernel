@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-pattern.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-pattern.ko drivers/leds/trigger/ledtrig-pattern.o drivers/leds/trigger/ledtrig-pattern.mod.o;  true

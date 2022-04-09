@@ -1,0 +1,10 @@
+drivers/gpio/gpio-generic.ko
+drivers/gpio/gpio-amd-fch.ko
+drivers/gpio/gpio-amdpt.ko
+drivers/gpio/gpio-bd9571mwv.ko
+drivers/gpio/gpio-exar.ko
+drivers/gpio/gpio-ich.ko
+drivers/gpio/gpio-it87.ko
+drivers/gpio/gpio-pca953x.ko
+drivers/gpio/gpio-pci-idio-16.ko
+drivers/gpio/gpio-viperboard.ko

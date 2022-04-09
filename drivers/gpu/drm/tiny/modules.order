@@ -1,0 +1,3 @@
+drivers/gpu/drm/tiny/bochs.ko
+drivers/gpu/drm/tiny/cirrus.ko
+drivers/gpu/drm/tiny/gm12u320.ko

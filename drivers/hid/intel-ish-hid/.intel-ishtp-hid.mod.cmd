@@ -1,0 +1,1 @@
+cmd_drivers/hid/intel-ish-hid/intel-ishtp-hid.mod := { echo  drivers/hid/intel-ish-hid/ishtp-hid.o drivers/hid/intel-ish-hid/ishtp-hid-client.o;  echo; } > drivers/hid/intel-ish-hid/intel-ishtp-hid.mod

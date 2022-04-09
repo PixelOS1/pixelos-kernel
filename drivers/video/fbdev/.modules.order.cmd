@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/modules.order := {   cat drivers/video/fbdev/core/modules.order;   cat drivers/video/fbdev/omap2/modules.order;   echo drivers/video/fbdev/vga16fb.ko;   echo drivers/video/fbdev/vfb.ko; :; } | awk '!x[$$0]++' - > drivers/video/fbdev/modules.order

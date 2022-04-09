@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/modules.order := {   echo drivers/platform/chrome/chromeos_laptop.ko;   echo drivers/platform/chrome/chromeos_pstore.ko;   echo drivers/platform/chrome/cros_kbd_led_backlight.ko; :; } | awk '!x[$$0]++' - > drivers/platform/chrome/modules.order

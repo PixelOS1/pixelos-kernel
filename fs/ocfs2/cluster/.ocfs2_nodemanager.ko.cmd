@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/cluster/ocfs2_nodemanager.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o fs/ocfs2/cluster/ocfs2_nodemanager.ko fs/ocfs2/cluster/ocfs2_nodemanager.o fs/ocfs2/cluster/ocfs2_nodemanager.mod.o;  true

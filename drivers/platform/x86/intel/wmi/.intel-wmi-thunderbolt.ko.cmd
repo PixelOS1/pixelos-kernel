@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel/wmi/intel-wmi-thunderbolt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/intel/wmi/intel-wmi-thunderbolt.ko drivers/platform/x86/intel/wmi/intel-wmi-thunderbolt.o drivers/platform/x86/intel/wmi/intel-wmi-thunderbolt.mod.o;  true

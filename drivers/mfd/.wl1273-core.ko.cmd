@@ -1,0 +1,1 @@
+cmd_drivers/mfd/wl1273-core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mfd/wl1273-core.ko drivers/mfd/wl1273-core.o drivers/mfd/wl1273-core.mod.o;  true

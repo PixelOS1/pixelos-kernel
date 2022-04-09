@@ -1,0 +1,2 @@
+drivers/scsi/ufs/ufshcd-core.ko
+drivers/scsi/ufs/ufshcd-pci.ko

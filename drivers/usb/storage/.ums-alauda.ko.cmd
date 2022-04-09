@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-alauda.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-alauda.ko drivers/usb/storage/ums-alauda.o drivers/usb/storage/ums-alauda.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/hisilicon/hi6210-i2s.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/hisilicon/hi6210-i2s.ko sound/soc/hisilicon/hi6210-i2s.o sound/soc/hisilicon/hi6210-i2s.mod.o;  true

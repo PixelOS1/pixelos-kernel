@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.mod := { echo  drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.o;  echo; } > drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.mod

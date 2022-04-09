@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/b53/b53_mmap.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/b53/b53_mmap.ko drivers/net/dsa/b53/b53_mmap.o drivers/net/dsa/b53/b53_mmap.mod.o;  true

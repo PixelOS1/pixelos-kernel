@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-rc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/em28xx/em28xx-rc.ko drivers/media/usb/em28xx/em28xx-rc.o drivers/media/usb/em28xx/em28xx-rc.mod.o;  true

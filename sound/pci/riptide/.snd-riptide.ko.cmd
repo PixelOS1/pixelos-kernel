@@ -1,0 +1,1 @@
+cmd_sound/pci/riptide/snd-riptide.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/riptide/snd-riptide.ko sound/pci/riptide/snd-riptide.o sound/pci/riptide/snd-riptide.mod.o;  true

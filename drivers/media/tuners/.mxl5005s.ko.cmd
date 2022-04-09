@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mxl5005s.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/mxl5005s.ko drivers/media/tuners/mxl5005s.o drivers/media/tuners/mxl5005s.mod.o;  true

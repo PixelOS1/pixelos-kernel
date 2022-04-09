@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-streamzap.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-streamzap.ko drivers/media/rc/keymaps/rc-streamzap.o drivers/media/rc/keymaps/rc-streamzap.mod.o;  true

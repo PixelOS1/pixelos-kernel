@@ -1,0 +1,1 @@
+cmd_sound/pci/emu10k1/snd-emu10k1-synth.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/emu10k1/snd-emu10k1-synth.ko sound/pci/emu10k1/snd-emu10k1-synth.o sound/pci/emu10k1/snd-emu10k1-synth.mod.o;  true

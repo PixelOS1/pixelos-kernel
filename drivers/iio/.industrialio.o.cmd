@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/iio/industrialio.o drivers/iio/industrialio-core.o drivers/iio/industrialio-event.o drivers/iio/inkern.o drivers/iio/industrialio-buffer.o drivers/iio/industrialio-trigger.o

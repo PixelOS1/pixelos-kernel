@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/lightning.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/gameport/lightning.ko drivers/input/gameport/lightning.o drivers/input/gameport/lightning.mod.o;  true

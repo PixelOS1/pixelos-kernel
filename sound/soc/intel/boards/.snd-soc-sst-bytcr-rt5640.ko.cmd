@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sst-bytcr-rt5640.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-sst-bytcr-rt5640.ko sound/soc/intel/boards/snd-soc-sst-bytcr-rt5640.o sound/soc/intel/boards/snd-soc-sst-bytcr-rt5640.mod.o;  true

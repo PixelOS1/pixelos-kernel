@@ -1,0 +1,1 @@
+cmd_drivers/dma/dw-edma/dw-edma.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/dma/dw-edma/dw-edma.o drivers/dma/dw-edma/dw-edma-core.o drivers/dma/dw-edma/dw-edma-v0-core.o drivers/dma/dw-edma/dw-edma-v0-debugfs.o

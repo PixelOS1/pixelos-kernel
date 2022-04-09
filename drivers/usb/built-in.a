@@ -1,0 +1,64 @@
+!<thin>
+//                                              464       `
+common/common.o/
+common/debug.o/
+common/led.o/
+core/usb.o/
+core/hub.o/
+core/hcd.o/
+core/urb.o/
+core/message.o/
+core/driver.o/
+core/config.o/
+core/file.o/
+core/buffer.o/
+core/sysfs.o/
+core/endpoint.o/
+core/devio.o/
+core/notify.o/
+core/generic.o/
+core/quirks.o/
+core/devices.o/
+core/phy.o/
+core/port.o/
+core/hcd-pci.o/
+core/usb-acpi.o/
+phy/phy.o/
+mon/mon_main.o/
+mon/mon_stat.o/
+mon/mon_text.o/
+mon/mon_bin.o/
+host/pci-quirks.o/
+early/ehci-dbgp.o/
+early/xhci-dbc.o/
+/0              0           0     0     644     17880     `
+/17             0           0     0     644     9016      `
+/33             0           0     0     644     4368      `
+/47             0           0     0     644     40304     `
+/59             0           0     0     644     188824    `
+/71             0           0     0     644     101552    `
+/83             0           0     0     644     44120     `
+/95             0           0     0     644     77552     `
+/111            0           0     0     644     65840     `
+/126            0           0     0     644     26440     `
+/141            0           0     0     644     13256     `
+/154            0           0     0     644     4768      `
+/169            0           0     0     644     52432     `
+/183            0           0     0     644     8192      `
+/200            0           0     0     644     81656     `
+/214            0           0     0     644     5448      `
+/229            0           0     0     644     10296     `
+/245            0           0     0     644     14752     `
+/260            0           0     0     644     12208     `
+/276            0           0     0     644     15728     `
+/288            0           0     0     644     23664     `
+/301            0           0     0     644     31056     `
+/317            0           0     0     644     10568     `
+/334            0           0     0     644     30408     `
+/345            0           0     0     644     16328     `
+/361            0           0     0     644     3440      `
+/377            0           0     0     644     24272     `
+/393            0           0     0     644     29232     `
+/408            0           0     0     644     43344     `
+/427            0           0     0     644     21304     `
+/446            0           0     0     644     22800     `

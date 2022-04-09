@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/intel/ntb_hw_intel.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ntb/hw/intel/ntb_hw_intel.ko drivers/ntb/hw/intel/ntb_hw_intel.o drivers/ntb/hw/intel/ntb_hw_intel.mod.o;  true

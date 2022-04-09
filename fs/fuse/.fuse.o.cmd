@@ -1,0 +1,1 @@
+cmd_fs/fuse/fuse.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o fs/fuse/fuse.o fs/fuse/dev.o fs/fuse/dir.o fs/fuse/file.o fs/fuse/inode.o fs/fuse/control.o fs/fuse/xattr.o fs/fuse/acl.o fs/fuse/readdir.o fs/fuse/ioctl.o

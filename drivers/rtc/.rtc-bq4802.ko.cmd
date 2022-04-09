@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-bq4802.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-bq4802.ko drivers/rtc/rtc-bq4802.o drivers/rtc/rtc-bq4802.mod.o;  true

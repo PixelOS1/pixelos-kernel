@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/acecad.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/tablet/acecad.ko drivers/input/tablet/acecad.o drivers/input/tablet/acecad.mod.o;  true

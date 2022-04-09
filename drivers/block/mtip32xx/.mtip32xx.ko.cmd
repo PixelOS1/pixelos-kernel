@@ -1,0 +1,1 @@
+cmd_drivers/block/mtip32xx/mtip32xx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/block/mtip32xx/mtip32xx.ko drivers/block/mtip32xx/mtip32xx.o drivers/block/mtip32xx/mtip32xx.mod.o;  true

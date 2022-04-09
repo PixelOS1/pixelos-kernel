@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/vkms/vkms.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/gpu/drm/vkms/vkms.o drivers/gpu/drm/vkms/vkms_drv.o drivers/gpu/drm/vkms/vkms_plane.o drivers/gpu/drm/vkms/vkms_output.o drivers/gpu/drm/vkms/vkms_crtc.o drivers/gpu/drm/vkms/vkms_composer.o drivers/gpu/drm/vkms/vkms_writeback.o

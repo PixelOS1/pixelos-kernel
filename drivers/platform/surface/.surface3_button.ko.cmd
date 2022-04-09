@@ -1,0 +1,1 @@
+cmd_drivers/platform/surface/surface3_button.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/surface/surface3_button.ko drivers/platform/surface/surface3_button.o drivers/platform/surface/surface3_button.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/acpi/acpi_extlog.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/acpi/acpi_extlog.ko drivers/acpi/acpi_extlog.o drivers/acpi/acpi_extlog.mod.o;  true

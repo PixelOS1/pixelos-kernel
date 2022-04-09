@@ -1,0 +1,1 @@
+cmd_drivers/virt/vboxguest/vboxguest.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/virt/vboxguest/vboxguest.o drivers/virt/vboxguest/vboxguest_linux.o drivers/virt/vboxguest/vboxguest_core.o drivers/virt/vboxguest/vboxguest_utils.o

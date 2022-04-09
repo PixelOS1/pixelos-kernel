@@ -1,0 +1,1 @@
+cmd_drivers/misc/sgi-gru/gru.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/misc/sgi-gru/gru.o drivers/misc/sgi-gru/grufile.o drivers/misc/sgi-gru/grumain.o drivers/misc/sgi-gru/grufault.o drivers/misc/sgi-gru/grutlbpurge.o drivers/misc/sgi-gru/gruprocfs.o drivers/misc/sgi-gru/grukservices.o drivers/misc/sgi-gru/gruhandles.o drivers/misc/sgi-gru/grukdump.o

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/core/iw_cm.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/infiniband/core/iw_cm.o drivers/infiniband/core/iwcm.o drivers/infiniband/core/iwpm_util.o drivers/infiniband/core/iwpm_msg.o

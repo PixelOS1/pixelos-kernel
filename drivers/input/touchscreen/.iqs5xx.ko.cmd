@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/iqs5xx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/iqs5xx.ko drivers/input/touchscreen/iqs5xx.o drivers/input/touchscreen/iqs5xx.mod.o;  true

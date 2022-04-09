@@ -1,0 +1,1 @@
+cmd_drivers/devfreq/governor_simpleondemand.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/devfreq/governor_simpleondemand.ko drivers/devfreq/governor_simpleondemand.o drivers/devfreq/governor_simpleondemand.mod.o;  true

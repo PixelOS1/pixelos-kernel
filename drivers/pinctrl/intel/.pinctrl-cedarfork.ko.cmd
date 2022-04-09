@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-cedarfork.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-cedarfork.ko drivers/pinctrl/intel/pinctrl-cedarfork.o drivers/pinctrl/intel/pinctrl-cedarfork.mod.o;  true

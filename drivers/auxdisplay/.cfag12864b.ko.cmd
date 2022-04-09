@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/cfag12864b.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/auxdisplay/cfag12864b.ko drivers/auxdisplay/cfag12864b.o drivers/auxdisplay/cfag12864b.mod.o;  true

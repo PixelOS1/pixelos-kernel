@@ -1,0 +1,1 @@
+cmd_sound/usb/bcd2000/snd-bcd2000.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/usb/bcd2000/snd-bcd2000.ko sound/usb/bcd2000/snd-bcd2000.o sound/usb/bcd2000/snd-bcd2000.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/xen/xenfs/xenfs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/xen/xenfs/xenfs.ko drivers/xen/xenfs/xenfs.o drivers/xen/xenfs/xenfs.mod.o;  true

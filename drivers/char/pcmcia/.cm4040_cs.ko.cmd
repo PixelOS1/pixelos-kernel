@@ -1,0 +1,1 @@
+cmd_drivers/char/pcmcia/cm4040_cs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/pcmcia/cm4040_cs.ko drivers/char/pcmcia/cm4040_cs.o drivers/char/pcmcia/cm4040_cs.mod.o;  true

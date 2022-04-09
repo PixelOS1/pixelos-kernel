@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-viapro.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-viapro.ko drivers/i2c/busses/i2c-viapro.o drivers/i2c/busses/i2c-viapro.mod.o;  true

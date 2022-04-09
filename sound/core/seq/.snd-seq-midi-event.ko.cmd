@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-midi-event.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/core/seq/snd-seq-midi-event.ko sound/core/seq/snd-seq-midi-event.o sound/core/seq/snd-seq-midi-event.mod.o;  true

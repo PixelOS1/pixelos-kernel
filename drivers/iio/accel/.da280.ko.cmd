@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/da280.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/da280.ko drivers/iio/accel/da280.o drivers/iio/accel/da280.mod.o;  true

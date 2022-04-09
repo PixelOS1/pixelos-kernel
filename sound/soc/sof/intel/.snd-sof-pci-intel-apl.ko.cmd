@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/snd-sof-pci-intel-apl.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/sof/intel/snd-sof-pci-intel-apl.ko sound/soc/sof/intel/snd-sof-pci-intel-apl.o sound/soc/sof/intel/snd-sof-pci-intel-apl.mod.o;  true

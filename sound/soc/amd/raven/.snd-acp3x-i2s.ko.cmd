@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/raven/snd-acp3x-i2s.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/raven/snd-acp3x-i2s.ko sound/soc/amd/raven/snd-acp3x-i2s.o sound/soc/amd/raven/snd-acp3x-i2s.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/pci/rme9652/modules.order := {   echo sound/pci/rme9652/snd-rme9652.ko;   echo sound/pci/rme9652/snd-hdsp.ko;   echo sound/pci/rme9652/snd-hdspm.ko; :; } | awk '!x[$$0]++' - > sound/pci/rme9652/modules.order

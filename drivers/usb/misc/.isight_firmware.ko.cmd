@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/isight_firmware.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/isight_firmware.ko drivers/usb/misc/isight_firmware.o drivers/usb/misc/isight_firmware.mod.o;  true

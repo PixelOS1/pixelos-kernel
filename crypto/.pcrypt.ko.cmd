@@ -1,0 +1,1 @@
+cmd_crypto/pcrypt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o crypto/pcrypt.ko crypto/pcrypt.o crypto/pcrypt.mod.o;  true

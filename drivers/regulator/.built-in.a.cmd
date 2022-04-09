@@ -1,0 +1,1 @@
+cmd_drivers/regulator/built-in.a := echo >/dev/null; rm -f drivers/regulator/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/regulator/built-in.a drivers/regulator/core.o drivers/regulator/dummy.o drivers/regulator/fixed-helper.o drivers/regulator/helpers.o drivers/regulator/devres.o drivers/regulator/irq_helpers.o

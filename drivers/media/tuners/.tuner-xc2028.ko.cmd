@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tuner-xc2028.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tuner-xc2028.ko drivers/media/tuners/tuner-xc2028.o drivers/media/tuners/tuner-xc2028.mod.o;  true

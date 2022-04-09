@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/cobra.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/cobra.ko drivers/input/joystick/cobra.o drivers/input/joystick/cobra.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/upd78f0730.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/upd78f0730.ko drivers/usb/serial/upd78f0730.o drivers/usb/serial/upd78f0730.mod.o;  true

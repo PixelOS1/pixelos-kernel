@@ -1,0 +1,1 @@
+cmd_sound/pci/oxygen/snd-oxygen-lib.mod := { echo  sound/pci/oxygen/oxygen_io.o sound/pci/oxygen/oxygen_lib.o sound/pci/oxygen/oxygen_mixer.o sound/pci/oxygen/oxygen_pcm.o;  echo; } > sound/pci/oxygen/snd-oxygen-lib.mod

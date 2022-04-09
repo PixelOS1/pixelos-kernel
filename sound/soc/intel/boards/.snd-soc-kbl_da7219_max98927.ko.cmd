@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-kbl_da7219_max98927.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-kbl_da7219_max98927.ko sound/soc/intel/boards/snd-soc-kbl_da7219_max98927.o sound/soc/intel/boards/snd-soc-kbl_da7219_max98927.mod.o;  true

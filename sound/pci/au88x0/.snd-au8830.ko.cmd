@@ -1,0 +1,1 @@
+cmd_sound/pci/au88x0/snd-au8830.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/au88x0/snd-au8830.ko sound/pci/au88x0/snd-au8830.o sound/pci/au88x0/snd-au8830.mod.o;  true

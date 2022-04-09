@@ -1,0 +1,1 @@
+cmd_drivers/scsi/cxgbi/cxgb3i/cxgb3i.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/cxgbi/cxgb3i/cxgb3i.ko drivers/scsi/cxgbi/cxgb3i/cxgb3i.o drivers/scsi/cxgbi/cxgb3i/cxgb3i.mod.o;  true

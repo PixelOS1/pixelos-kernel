@@ -1,0 +1,1 @@
+cmd_drivers/iio/orientation/hid-sensor-incl-3d.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/orientation/hid-sensor-incl-3d.ko drivers/iio/orientation/hid-sensor-incl-3d.o drivers/iio/orientation/hid-sensor-incl-3d.mod.o;  true

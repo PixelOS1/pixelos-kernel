@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/srpt/ib_srpt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/ulp/srpt/ib_srpt.ko drivers/infiniband/ulp/srpt/ib_srpt.o drivers/infiniband/ulp/srpt/ib_srpt.mod.o;  true

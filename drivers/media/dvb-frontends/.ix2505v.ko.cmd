@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/ix2505v.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/ix2505v.ko drivers/media/dvb-frontends/ix2505v.o drivers/media/dvb-frontends/ix2505v.mod.o;  true

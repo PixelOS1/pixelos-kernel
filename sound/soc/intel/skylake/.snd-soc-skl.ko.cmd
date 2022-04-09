@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/skylake/snd-soc-skl.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/skylake/snd-soc-skl.ko sound/soc/intel/skylake/snd-soc-skl.o sound/soc/intel/skylake/snd-soc-skl.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-primax.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-primax.ko drivers/hid/hid-primax.o drivers/hid/hid-primax.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/bcm5974.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/mouse/bcm5974.ko drivers/input/mouse/bcm5974.o drivers/input/mouse/bcm5974.mod.o;  true

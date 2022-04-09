@@ -1,0 +1,11 @@
+drivers/iio/gyro/bmg160_core.ko
+drivers/iio/gyro/bmg160_i2c.ko
+drivers/iio/gyro/bmg160_spi.ko
+drivers/iio/gyro/fxas21002c_core.ko
+drivers/iio/gyro/fxas21002c_i2c.ko
+drivers/iio/gyro/fxas21002c_spi.ko
+drivers/iio/gyro/hid-sensor-gyro-3d.ko
+drivers/iio/gyro/mpu3050.ko
+drivers/iio/gyro/st_gyro.ko
+drivers/iio/gyro/st_gyro_i2c.ko
+drivers/iio/gyro/st_gyro_spi.ko

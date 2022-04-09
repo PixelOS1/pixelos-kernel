@@ -1,0 +1,1 @@
+cmd_drivers/ptp/modules.order := {   echo drivers/ptp/ptp_kvm.ko;   echo drivers/ptp/ptp_clockmatrix.ko;   echo drivers/ptp/ptp_idt82p33.ko;   echo drivers/ptp/ptp_vmw.ko; :; } | awk '!x[$$0]++' - > drivers/ptp/modules.order

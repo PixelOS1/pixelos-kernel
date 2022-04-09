@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-pod.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/usb/line6/snd-usb-pod.ko sound/usb/line6/snd-usb-pod.o sound/usb/line6/snd-usb-pod.mod.o;  true

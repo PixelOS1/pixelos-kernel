@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_ttm_helper.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/drm_ttm_helper.ko drivers/gpu/drm/drm_ttm_helper.o drivers/gpu/drm/drm_ttm_helper.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/renoir/snd-acp3x-pdm-dma.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/renoir/snd-acp3x-pdm-dma.ko sound/soc/amd/renoir/snd-acp3x-pdm-dma.o sound/soc/amd/renoir/snd-acp3x-pdm-dma.mod.o;  true

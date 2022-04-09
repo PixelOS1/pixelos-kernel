@@ -1,0 +1,1 @@
+cmd_drivers/staging/r8188eu/r8188eu.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/r8188eu/r8188eu.ko drivers/staging/r8188eu/r8188eu.o drivers/staging/r8188eu/r8188eu.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/cxd2880-spi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/spi/cxd2880-spi.ko drivers/media/spi/cxd2880-spi.o drivers/media/spi/cxd2880-spi.mod.o;  true

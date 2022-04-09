@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/go7007/modules.order := {   echo drivers/media/usb/go7007/go7007.ko;   echo drivers/media/usb/go7007/go7007-loader.ko; :; } | awk '!x[$$0]++' - > drivers/media/usb/go7007/modules.order

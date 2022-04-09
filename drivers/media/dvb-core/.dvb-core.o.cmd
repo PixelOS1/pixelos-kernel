@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-core/dvb-core.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/media/dvb-core/dvb-core.o drivers/media/dvb-core/dvbdev.o drivers/media/dvb-core/dmxdev.o drivers/media/dvb-core/dvb_demux.o drivers/media/dvb-core/dvb_ca_en50221.o drivers/media/dvb-core/dvb_frontend.o drivers/media/dvb-core/dvb_ringbuffer.o drivers/media/dvb-core/dvb_math.o

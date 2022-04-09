@@ -1,0 +1,1 @@
+cmd_sound/pci/ice1712/modules.order := {   echo sound/pci/ice1712/snd-ice1712.ko;   echo sound/pci/ice1712/snd-ice17xx-ak4xxx.ko;   echo sound/pci/ice1712/snd-ice1724.ko; :; } | awk '!x[$$0]++' - > sound/pci/ice1712/modules.order

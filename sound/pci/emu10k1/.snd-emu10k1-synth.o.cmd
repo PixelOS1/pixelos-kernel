@@ -1,0 +1,1 @@
+cmd_sound/pci/emu10k1/snd-emu10k1-synth.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o sound/pci/emu10k1/snd-emu10k1-synth.o sound/pci/emu10k1/emu10k1_synth.o sound/pci/emu10k1/emu10k1_callback.o sound/pci/emu10k1/emu10k1_patch.o

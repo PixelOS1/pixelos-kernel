@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/core/rdma_ucm.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/core/rdma_ucm.ko drivers/infiniband/core/rdma_ucm.o drivers/infiniband/core/rdma_ucm.mod.o;  true

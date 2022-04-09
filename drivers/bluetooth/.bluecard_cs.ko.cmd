@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bluecard_cs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/bluetooth/bluecard_cs.ko drivers/bluetooth/bluecard_cs.o drivers/bluetooth/bluecard_cs.mod.o;  true

@@ -1,0 +1,10 @@
+drivers/dma/idxd/idxd.ko
+drivers/dma/idxd/idxd_bus.ko
+drivers/dma/altera-msgdma.ko
+drivers/dma/dw/dw_dmac_core.ko
+drivers/dma/dw/dw_dmac.ko
+drivers/dma/dw/dw_dmac_pci.ko
+drivers/dma/dw-edma/dw-edma.ko
+drivers/dma/dw-edma/dw-edma-pcie.ko
+drivers/dma/idma64.ko
+drivers/dma/ioat/ioatdma.ko

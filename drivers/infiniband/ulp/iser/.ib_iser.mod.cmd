@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/iser/ib_iser.mod := { echo  drivers/infiniband/ulp/iser/iser_verbs.o drivers/infiniband/ulp/iser/iser_initiator.o drivers/infiniband/ulp/iser/iser_memory.o drivers/infiniband/ulp/iser/iscsi_iser.o;  echo; } > drivers/infiniband/ulp/iser/ib_iser.mod

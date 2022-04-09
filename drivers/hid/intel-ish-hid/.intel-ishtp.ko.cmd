@@ -1,0 +1,1 @@
+cmd_drivers/hid/intel-ish-hid/intel-ishtp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/intel-ish-hid/intel-ishtp.ko drivers/hid/intel-ish-hid/intel-ishtp.o drivers/hid/intel-ish-hid/intel-ishtp.mod.o;  true

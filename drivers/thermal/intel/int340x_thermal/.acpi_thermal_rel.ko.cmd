@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.ko drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.o drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.mod.o;  true

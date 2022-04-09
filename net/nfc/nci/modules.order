@@ -1,0 +1,2 @@
+net/nfc/nci/nci.ko
+net/nfc/nci/nci_spi.ko

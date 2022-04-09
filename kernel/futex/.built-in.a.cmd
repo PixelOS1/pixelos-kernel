@@ -1,0 +1,1 @@
+cmd_kernel/futex/built-in.a := echo >/dev/null; rm -f kernel/futex/built-in.a; x86_64-pc-linux-gnu-ar cDPrST kernel/futex/built-in.a kernel/futex/core.o kernel/futex/syscalls.o kernel/futex/pi.o kernel/futex/requeue.o kernel/futex/waitwake.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/broadcom/b43/b43.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/broadcom/b43/b43.ko drivers/net/wireless/broadcom/b43/b43.o drivers/net/wireless/broadcom/b43/b43.mod.o;  true

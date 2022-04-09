@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83627hf.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/w83627hf.ko drivers/hwmon/w83627hf.o drivers/hwmon/w83627hf.mod.o;  true

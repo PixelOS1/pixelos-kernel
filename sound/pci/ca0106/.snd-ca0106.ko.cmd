@@ -1,0 +1,1 @@
+cmd_sound/pci/ca0106/snd-ca0106.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/ca0106/snd-ca0106.ko sound/pci/ca0106/snd-ca0106.o sound/pci/ca0106/snd-ca0106.mod.o;  true

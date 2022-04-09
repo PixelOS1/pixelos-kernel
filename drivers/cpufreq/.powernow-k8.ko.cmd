@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/powernow-k8.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/powernow-k8.ko drivers/cpufreq/powernow-k8.o drivers/cpufreq/powernow-k8.mod.o;  true

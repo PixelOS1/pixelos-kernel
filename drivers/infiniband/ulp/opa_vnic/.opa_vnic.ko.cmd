@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/opa_vnic/opa_vnic.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/ulp/opa_vnic/opa_vnic.ko drivers/infiniband/ulp/opa_vnic/opa_vnic.o drivers/infiniband/ulp/opa_vnic/opa_vnic.mod.o;  true

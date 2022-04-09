@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/skylake/modules.order := {   echo sound/soc/intel/skylake/snd-soc-skl.ko;   echo sound/soc/intel/skylake/snd-soc-skl-ssp-clk.ko; :; } | awk '!x[$$0]++' - > sound/soc/intel/skylake/modules.order

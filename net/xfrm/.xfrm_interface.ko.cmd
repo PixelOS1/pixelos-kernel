@@ -1,0 +1,1 @@
+cmd_net/xfrm/xfrm_interface.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/xfrm/xfrm_interface.ko net/xfrm/xfrm_interface.o net/xfrm/xfrm_interface.mod.o;  true

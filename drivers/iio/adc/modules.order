@@ -1,0 +1,11 @@
+drivers/iio/adc/ad_sigma_delta.ko
+drivers/iio/adc/ad7124.ko
+drivers/iio/adc/ad7292.ko
+drivers/iio/adc/ad7766.ko
+drivers/iio/adc/ad7949.ko
+drivers/iio/adc/axp288_adc.ko
+drivers/iio/adc/max1241.ko
+drivers/iio/adc/max1363.ko
+drivers/iio/adc/mcp3911.ko
+drivers/iio/adc/ti-adc128s052.ko
+drivers/iio/adc/ti-ads1015.ko

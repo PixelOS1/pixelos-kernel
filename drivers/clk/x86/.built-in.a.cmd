@@ -1,0 +1,1 @@
+cmd_drivers/clk/x86/built-in.a := echo >/dev/null; rm -f drivers/clk/x86/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/clk/x86/built-in.a drivers/clk/x86/clk-pmc-atom.o drivers/clk/x86/clk-fch.o drivers/clk/x86/clk-lpss-atom.o

@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/vsock_loopback.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/vmw_vsock/vsock_loopback.ko net/vmw_vsock/vsock_loopback.o net/vmw_vsock/vsock_loopback.mod.o;  true

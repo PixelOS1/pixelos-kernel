@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/myricom/myri10ge/myri10ge.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/myricom/myri10ge/myri10ge.ko drivers/net/ethernet/myricom/myri10ge/myri10ge.o drivers/net/ethernet/myricom/myri10ge/myri10ge.mod.o;  true

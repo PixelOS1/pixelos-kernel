@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/built-in.a := echo >/dev/null; rm -f arch/x86/crypto/built-in.a; x86_64-pc-linux-gnu-ar cDPrST arch/x86/crypto/built-in.a arch/x86/crypto/blake2s-core.o arch/x86/crypto/blake2s-glue.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/e1000e/e1000e.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/intel/e1000e/e1000e.ko drivers/net/ethernet/intel/e1000e/e1000e.o drivers/net/ethernet/intel/e1000e/e1000e.mod.o;  true

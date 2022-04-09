@@ -1,0 +1,1 @@
+cmd_drivers/crypto/qat/qat_dh895xcc/qat_dh895xcc.mod := { echo  drivers/crypto/qat/qat_dh895xcc/adf_drv.o drivers/crypto/qat/qat_dh895xcc/adf_dh895xcc_hw_data.o;  echo; } > drivers/crypto/qat/qat_dh895xcc/qat_dh895xcc.mod

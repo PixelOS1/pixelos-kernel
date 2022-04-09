@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/renoir/snd-rn-pci-acp3x.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/renoir/snd-rn-pci-acp3x.ko sound/soc/amd/renoir/snd-rn-pci-acp3x.o sound/soc/amd/renoir/snd-rn-pci-acp3x.mod.o;  true

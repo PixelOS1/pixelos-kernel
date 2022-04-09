@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/xen-kbdfront.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/xen-kbdfront.ko drivers/input/misc/xen-kbdfront.o drivers/input/misc/xen-kbdfront.mod.o;  true

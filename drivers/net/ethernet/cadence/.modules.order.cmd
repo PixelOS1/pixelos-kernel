@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cadence/modules.order := {   echo drivers/net/ethernet/cadence/macb.ko;   echo drivers/net/ethernet/cadence/macb_pci.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/cadence/modules.order

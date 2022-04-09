@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/applespi.ko;   echo drivers/input/keyboard/gpio_keys.ko;   echo drivers/input/keyboard/gpio_keys_polled.ko;   echo drivers/input/keyboard/qt1050.ko;   echo drivers/input/keyboard/qt1070.ko;   echo drivers/input/keyboard/tm2-touchkey.ko; :; } | awk '!x[$$0]++' - > drivers/input/keyboard/modules.order

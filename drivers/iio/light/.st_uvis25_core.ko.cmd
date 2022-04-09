@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/st_uvis25_core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/st_uvis25_core.ko drivers/iio/light/st_uvis25_core.o drivers/iio/light/st_uvis25_core.mod.o;  true

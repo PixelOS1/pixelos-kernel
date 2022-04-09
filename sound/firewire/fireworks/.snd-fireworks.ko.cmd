@@ -1,0 +1,1 @@
+cmd_sound/firewire/fireworks/snd-fireworks.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/firewire/fireworks/snd-fireworks.ko sound/firewire/fireworks/snd-fireworks.o sound/firewire/fireworks/snd-fireworks.mod.o;  true

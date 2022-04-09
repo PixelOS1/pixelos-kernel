@@ -1,0 +1,1 @@
+cmd_drivers/md/persistent-data/dm-persistent-data.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/md/persistent-data/dm-persistent-data.ko drivers/md/persistent-data/dm-persistent-data.o drivers/md/persistent-data/dm-persistent-data.mod.o;  true

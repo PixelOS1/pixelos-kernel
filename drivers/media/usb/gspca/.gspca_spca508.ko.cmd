@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_spca508.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_spca508.ko drivers/media/usb/gspca/gspca_spca508.o drivers/media/usb/gspca/gspca_spca508.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/ixgb/ixgb.mod := { echo  drivers/net/ethernet/intel/ixgb/ixgb_main.o drivers/net/ethernet/intel/ixgb/ixgb_hw.o drivers/net/ethernet/intel/ixgb/ixgb_ee.o drivers/net/ethernet/intel/ixgb/ixgb_ethtool.o drivers/net/ethernet/intel/ixgb/ixgb_param.o;  echo; } > drivers/net/ethernet/intel/ixgb/ixgb.mod

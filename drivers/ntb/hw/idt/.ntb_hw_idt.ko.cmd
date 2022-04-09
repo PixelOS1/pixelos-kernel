@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/idt/ntb_hw_idt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ntb/hw/idt/ntb_hw_idt.ko drivers/ntb/hw/idt/ntb_hw_idt.o drivers/ntb/hw/idt/ntb_hw_idt.mod.o;  true

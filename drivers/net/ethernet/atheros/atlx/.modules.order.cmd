@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/atheros/atlx/modules.order := {   echo drivers/net/ethernet/atheros/atlx/atl1.ko;   echo drivers/net/ethernet/atheros/atlx/atl2.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/atheros/atlx/modules.order

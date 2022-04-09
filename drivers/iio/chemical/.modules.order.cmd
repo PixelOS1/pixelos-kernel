@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/modules.order := {   echo drivers/iio/chemical/bme680_core.ko;   echo drivers/iio/chemical/bme680_i2c.ko;   echo drivers/iio/chemical/bme680_spi.ko; :; } | awk '!x[$$0]++' - > drivers/iio/chemical/modules.order

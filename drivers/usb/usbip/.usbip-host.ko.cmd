@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-host.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/usbip/usbip-host.ko drivers/usb/usbip/usbip-host.o drivers/usb/usbip/usbip-host.mod.o;  true

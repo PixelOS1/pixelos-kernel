@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/platform_lcd.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/platform_lcd.ko drivers/video/backlight/platform_lcd.o drivers/video/backlight/platform_lcd.mod.o;  true

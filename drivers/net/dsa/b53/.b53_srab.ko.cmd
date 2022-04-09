@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/b53/b53_srab.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/b53/b53_srab.ko drivers/net/dsa/b53/b53_srab.o drivers/net/dsa/b53/b53_srab.mod.o;  true

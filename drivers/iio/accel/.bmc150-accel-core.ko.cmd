@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bmc150-accel-core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/bmc150-accel-core.ko drivers/iio/accel/bmc150-accel-core.o drivers/iio/accel/bmc150-accel-core.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/vfio/modules.order := {   echo drivers/vfio/vfio.ko;   echo drivers/vfio/vfio_virqfd.ko;   echo drivers/vfio/vfio_iommu_type1.ko;   cat drivers/vfio/pci/modules.order;   cat drivers/vfio/mdev/modules.order; :; } | awk '!x[$$0]++' - > drivers/vfio/modules.order

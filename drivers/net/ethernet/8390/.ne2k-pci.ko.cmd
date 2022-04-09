@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/8390/ne2k-pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/8390/ne2k-pci.ko drivers/net/ethernet/8390/ne2k-pci.o drivers/net/ethernet/8390/ne2k-pci.mod.o;  true

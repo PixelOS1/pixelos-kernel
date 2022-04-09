@@ -1,0 +1,1 @@
+cmd_drivers/pcmcia/modules.order := {   echo drivers/pcmcia/pcmcia_core.ko;   echo drivers/pcmcia/pcmcia.ko;   echo drivers/pcmcia/pcmcia_rsrc.ko;   echo drivers/pcmcia/yenta_socket.ko;   echo drivers/pcmcia/pd6729.ko;   echo drivers/pcmcia/i82092.ko; :; } | awk '!x[$$0]++' - > drivers/pcmcia/modules.order

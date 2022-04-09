@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/sw/siw/siw.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/sw/siw/siw.ko drivers/infiniband/sw/siw/siw.o drivers/infiniband/sw/siw/siw.mod.o;  true

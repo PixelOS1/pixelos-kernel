@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_tis_spi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/tpm/tpm_tis_spi.ko drivers/char/tpm/tpm_tis_spi.o drivers/char/tpm/tpm_tis_spi.mod.o;  true

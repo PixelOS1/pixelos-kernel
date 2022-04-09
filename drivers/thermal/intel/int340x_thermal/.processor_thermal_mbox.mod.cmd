@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.mod := { echo  drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.o;  echo; } > drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.mod

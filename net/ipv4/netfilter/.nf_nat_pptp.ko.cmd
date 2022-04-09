@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_pptp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/nf_nat_pptp.ko net/ipv4/netfilter/nf_nat_pptp.o net/ipv4/netfilter/nf_nat_pptp.mod.o;  true

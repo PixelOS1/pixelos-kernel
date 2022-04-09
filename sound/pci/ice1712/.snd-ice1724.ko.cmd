@@ -1,0 +1,1 @@
+cmd_sound/pci/ice1712/snd-ice1724.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/ice1712/snd-ice1724.ko sound/pci/ice1712/snd-ice1724.o sound/pci/ice1712/snd-ice1724.mod.o;  true

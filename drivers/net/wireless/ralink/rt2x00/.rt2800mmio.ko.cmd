@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko drivers/net/wireless/ralink/rt2x00/rt2800mmio.o drivers/net/wireless/ralink/rt2x00/rt2800mmio.mod.o;  true

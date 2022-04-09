@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko drivers/media/rc/keymaps/rc-avermedia-rm-ks.o drivers/media/rc/keymaps/rc-avermedia-rm-ks.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/ucsi/modules.order := {   echo drivers/usb/typec/ucsi/typec_ucsi.ko;   echo drivers/usb/typec/ucsi/ucsi_acpi.ko;   echo drivers/usb/typec/ucsi/ucsi_ccg.ko; :; } | awk '!x[$$0]++' - > drivers/usb/typec/ucsi/modules.order

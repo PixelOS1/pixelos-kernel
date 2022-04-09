@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/aspeed-pwm-tacho.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/aspeed-pwm-tacho.ko drivers/hwmon/aspeed-pwm-tacho.o drivers/hwmon/aspeed-pwm-tacho.mod.o;  true

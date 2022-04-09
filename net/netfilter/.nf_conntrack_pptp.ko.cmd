@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_pptp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_conntrack_pptp.ko net/netfilter/nf_conntrack_pptp.o net/netfilter/nf_conntrack_pptp.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/hid-sensor-als.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/hid-sensor-als.ko drivers/iio/light/hid-sensor-als.o drivers/iio/light/hid-sensor-als.mod.o;  true

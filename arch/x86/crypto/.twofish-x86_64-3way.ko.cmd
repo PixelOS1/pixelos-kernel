@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/twofish-x86_64-3way.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o arch/x86/crypto/twofish-x86_64-3way.ko arch/x86/crypto/twofish-x86_64-3way.o arch/x86/crypto/twofish-x86_64-3way.mod.o;  true

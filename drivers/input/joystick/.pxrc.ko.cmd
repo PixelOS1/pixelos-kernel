@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/pxrc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/pxrc.ko drivers/input/joystick/pxrc.o drivers/input/joystick/pxrc.mod.o;  true

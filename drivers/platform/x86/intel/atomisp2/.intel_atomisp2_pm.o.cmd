@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel/atomisp2/intel_atomisp2_pm.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/platform/x86/intel/atomisp2/intel_atomisp2_pm.o drivers/platform/x86/intel/atomisp2/pm.o

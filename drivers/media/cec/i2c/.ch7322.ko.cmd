@@ -1,0 +1,1 @@
+cmd_drivers/media/cec/i2c/ch7322.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/cec/i2c/ch7322.ko drivers/media/cec/i2c/ch7322.o drivers/media/cec/i2c/ch7322.mod.o;  true

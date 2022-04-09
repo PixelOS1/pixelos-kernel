@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/nft_reject_bridge.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/nft_reject_bridge.ko net/bridge/netfilter/nft_reject_bridge.o net/bridge/netfilter/nft_reject_bridge.mod.o;  true

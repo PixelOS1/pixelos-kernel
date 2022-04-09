@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/ohci-pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/ohci-pci.ko drivers/usb/host/ohci-pci.o drivers/usb/host/ohci-pci.mod.o;  true

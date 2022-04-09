@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/cs53l32a.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/cs53l32a.ko drivers/media/i2c/cs53l32a.o drivers/media/i2c/cs53l32a.mod.o;  true

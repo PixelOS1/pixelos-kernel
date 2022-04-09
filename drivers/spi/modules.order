@@ -1,0 +1,5 @@
+drivers/spi/spi-mux.ko
+drivers/spi/spidev.ko
+drivers/spi/spi-pxa2xx-platform.ko
+drivers/spi/spi-pxa2xx-pci.ko
+drivers/spi/spi-amd.ko

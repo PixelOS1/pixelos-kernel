@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-beelink-gs1.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-beelink-gs1.ko drivers/media/rc/keymaps/rc-beelink-gs1.o drivers/media/rc/keymaps/rc-beelink-gs1.mod.o;  true

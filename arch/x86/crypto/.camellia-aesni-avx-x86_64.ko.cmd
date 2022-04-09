@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/camellia-aesni-avx-x86_64.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o arch/x86/crypto/camellia-aesni-avx-x86_64.ko arch/x86/crypto/camellia-aesni-avx-x86_64.o arch/x86/crypto/camellia-aesni-avx-x86_64.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/core/seq/modules.order := {   echo sound/core/seq/snd-seq.ko;   cat sound/core/seq/oss/modules.order;   echo sound/core/seq/snd-seq-dummy.ko;   echo sound/core/seq/snd-seq-midi.ko;   echo sound/core/seq/snd-seq-midi-emul.ko;   echo sound/core/seq/snd-seq-midi-event.ko;   echo sound/core/seq/snd-seq-virmidi.ko; :; } | awk '!x[$$0]++' - > sound/core/seq/modules.order

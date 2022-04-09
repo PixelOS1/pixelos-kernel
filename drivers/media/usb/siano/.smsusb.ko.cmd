@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/siano/smsusb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/siano/smsusb.ko drivers/media/usb/siano/smsusb.o drivers/media/usb/siano/smsusb.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-designware-core.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/i2c/busses/i2c-designware-core.o drivers/i2c/busses/i2c-designware-common.o drivers/i2c/busses/i2c-designware-master.o drivers/i2c/busses/i2c-designware-slave.o

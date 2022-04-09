@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/bcm-phy-lib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/bcm-phy-lib.ko drivers/net/phy/bcm-phy-lib.o drivers/net/phy/bcm-phy-lib.mod.o;  true

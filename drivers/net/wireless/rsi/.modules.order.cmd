@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rsi/modules.order := {   echo drivers/net/wireless/rsi/rsi_91x.ko;   echo drivers/net/wireless/rsi/rsi_sdio.ko;   echo drivers/net/wireless/rsi/rsi_usb.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/rsi/modules.order

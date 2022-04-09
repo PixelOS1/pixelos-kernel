@@ -1,0 +1,1 @@
+cmd_sound/pci/trident/snd-trident.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/trident/snd-trident.ko sound/pci/trident/snd-trident.o sound/pci/trident/snd-trident.mod.o;  true

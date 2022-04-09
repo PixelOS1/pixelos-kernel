@@ -1,0 +1,1 @@
+cmd_lib/netdev-notifier-error-inject.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o lib/netdev-notifier-error-inject.ko lib/netdev-notifier-error-inject.o lib/netdev-notifier-error-inject.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/modules.order := {   echo drivers/iio/humidity/dht11.ko;   echo drivers/iio/humidity/hid-sensor-humidity.ko;   echo drivers/iio/humidity/hts221.ko;   echo drivers/iio/humidity/hts221_i2c.ko;   echo drivers/iio/humidity/hts221_spi.ko; :; } | awk '!x[$$0]++' - > drivers/iio/humidity/modules.order

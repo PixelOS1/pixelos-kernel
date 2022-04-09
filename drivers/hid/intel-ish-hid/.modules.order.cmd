@@ -1,0 +1,1 @@
+cmd_drivers/hid/intel-ish-hid/modules.order := {   echo drivers/hid/intel-ish-hid/intel-ishtp.ko;   echo drivers/hid/intel-ish-hid/intel-ish-ipc.ko;   echo drivers/hid/intel-ish-hid/intel-ishtp-hid.ko;   echo drivers/hid/intel-ish-hid/intel-ishtp-loader.ko; :; } | awk '!x[$$0]++' - > drivers/hid/intel-ish-hid/modules.order

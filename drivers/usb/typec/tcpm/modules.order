@@ -1,0 +1,3 @@
+drivers/usb/typec/tcpm/tcpm.ko
+drivers/usb/typec/tcpm/fusb302.ko
+drivers/usb/typec/tcpm/tcpci.ko

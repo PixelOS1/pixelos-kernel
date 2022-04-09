@@ -1,0 +1,1 @@
+cmd_sound/hda/snd-intel-sdw-acpi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/hda/snd-intel-sdw-acpi.ko sound/hda/snd-intel-sdw-acpi.o sound/hda/snd-intel-sdw-acpi.mod.o;  true

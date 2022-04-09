@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/modules.order := {   echo drivers/iio/pressure/abp060mg.ko;   echo drivers/iio/pressure/bmp280.ko;   echo drivers/iio/pressure/bmp280-i2c.ko;   echo drivers/iio/pressure/bmp280-spi.ko;   echo drivers/iio/pressure/mpl115.ko;   echo drivers/iio/pressure/mpl115_i2c.ko; :; } | awk '!x[$$0]++' - > drivers/iio/pressure/modules.order

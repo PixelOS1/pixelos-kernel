@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_sh.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipvs/ip_vs_sh.ko net/netfilter/ipvs/ip_vs_sh.o net/netfilter/ipvs/ip_vs_sh.mod.o;  true

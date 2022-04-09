@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/vitesse.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/vitesse.ko drivers/net/phy/vitesse.o drivers/net/phy/vitesse.mod.o;  true

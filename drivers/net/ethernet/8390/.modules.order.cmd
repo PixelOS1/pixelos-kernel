@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/8390/modules.order := {   echo drivers/net/ethernet/8390/ne2k-pci.ko;   echo drivers/net/ethernet/8390/8390.ko;   echo drivers/net/ethernet/8390/axnet_cs.ko;   echo drivers/net/ethernet/8390/pcnet_cs.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/8390/modules.order

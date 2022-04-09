@@ -1,0 +1,3 @@
+drivers/media/cec/core/cec.ko
+drivers/media/cec/i2c/ch7322.ko
+drivers/media/cec/platform/seco/seco-cec.ko

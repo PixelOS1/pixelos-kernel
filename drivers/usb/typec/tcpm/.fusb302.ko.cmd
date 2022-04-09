@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/tcpm/fusb302.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/tcpm/fusb302.ko drivers/usb/typec/tcpm/fusb302.o drivers/usb/typec/tcpm/fusb302.mod.o;  true

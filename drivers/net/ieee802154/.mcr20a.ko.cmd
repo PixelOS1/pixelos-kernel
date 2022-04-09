@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/mcr20a.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ieee802154/mcr20a.ko drivers/net/ieee802154/mcr20a.o drivers/net/ieee802154/mcr20a.mod.o;  true

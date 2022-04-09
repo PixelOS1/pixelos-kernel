@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/quantenna/qtnfmac/modules.order := {   echo drivers/net/wireless/quantenna/qtnfmac/qtnfmac.ko;   echo drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/quantenna/qtnfmac/modules.order

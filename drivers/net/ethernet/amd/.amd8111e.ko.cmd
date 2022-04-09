@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/amd/amd8111e.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/amd/amd8111e.ko drivers/net/ethernet/amd/amd8111e.o drivers/net/ethernet/amd/amd8111e.mod.o;  true

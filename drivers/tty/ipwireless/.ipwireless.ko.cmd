@@ -1,0 +1,1 @@
+cmd_drivers/tty/ipwireless/ipwireless.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/tty/ipwireless/ipwireless.ko drivers/tty/ipwireless/ipwireless.o drivers/tty/ipwireless/ipwireless.mod.o;  true

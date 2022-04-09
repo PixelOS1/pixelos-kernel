@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/modules.order := {   echo drivers/char/hw_random/timeriomem-rng.ko;   echo drivers/char/hw_random/intel-rng.ko;   echo drivers/char/hw_random/amd-rng.ko;   echo drivers/char/hw_random/via-rng.ko; :; } | awk '!x[$$0]++' - > drivers/char/hw_random/modules.order

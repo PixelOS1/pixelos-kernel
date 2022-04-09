@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o net/netfilter/nf_nat.o net/netfilter/nf_nat_core.o net/netfilter/nf_nat_proto.o net/netfilter/nf_nat_helper.o net/netfilter/nf_nat_redirect.o net/netfilter/nf_nat_masquerade.o

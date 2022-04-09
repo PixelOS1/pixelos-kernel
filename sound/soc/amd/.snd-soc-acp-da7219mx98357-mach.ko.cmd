@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/snd-soc-acp-da7219mx98357-mach.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/snd-soc-acp-da7219mx98357-mach.ko sound/soc/amd/snd-soc-acp-da7219mx98357-mach.o sound/soc/amd/snd-soc-acp-da7219mx98357-mach.mod.o;  true

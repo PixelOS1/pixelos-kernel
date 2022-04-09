@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/input/joystick/iforce/iforce.o drivers/input/joystick/iforce/iforce-ff.o drivers/input/joystick/iforce/iforce-main.o drivers/input/joystick/iforce/iforce-packets.o

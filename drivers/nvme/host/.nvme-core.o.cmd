@@ -1,0 +1,1 @@
+cmd_drivers/nvme/host/nvme-core.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/nvme/host/nvme-core.o drivers/nvme/host/core.o drivers/nvme/host/ioctl.o drivers/nvme/host/trace.o drivers/nvme/host/multipath.o drivers/nvme/host/zns.o drivers/nvme/host/hwmon.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/go7007/go7007.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/go7007/go7007.ko drivers/media/usb/go7007/go7007.o drivers/media/usb/go7007/go7007.mod.o;  true

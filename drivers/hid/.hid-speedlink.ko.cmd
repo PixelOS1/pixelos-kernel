@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-speedlink.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-speedlink.ko drivers/hid/hid-speedlink.o drivers/hid/hid-speedlink.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/fealnx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/fealnx.ko drivers/net/ethernet/fealnx.o drivers/net/ethernet/fealnx.mod.o;  true

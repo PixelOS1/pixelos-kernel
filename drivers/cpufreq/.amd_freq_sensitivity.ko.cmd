@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/amd_freq_sensitivity.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/amd_freq_sensitivity.ko drivers/cpufreq/amd_freq_sensitivity.o drivers/cpufreq/amd_freq_sensitivity.mod.o;  true

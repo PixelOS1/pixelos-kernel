@@ -1,0 +1,1 @@
+cmd_drivers/dma/idxd/idxd_bus.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/dma/idxd/idxd_bus.ko drivers/dma/idxd/idxd_bus.o drivers/dma/idxd/idxd_bus.mod.o;  true

@@ -1,0 +1,4 @@
+kernel/rcu/rcutorture.ko
+kernel/trace/ring_buffer_benchmark.ko
+kernel/bpf/preload/bpf_preload.ko
+kernel/torture.ko

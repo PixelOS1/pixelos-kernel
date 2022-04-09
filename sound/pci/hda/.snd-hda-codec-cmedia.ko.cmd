@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec-cmedia.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/hda/snd-hda-codec-cmedia.ko sound/pci/hda/snd-hda-codec-cmedia.o sound/pci/hda/snd-hda-codec-cmedia.mod.o;  true

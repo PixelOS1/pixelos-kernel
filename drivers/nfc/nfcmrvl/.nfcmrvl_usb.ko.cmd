@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl_usb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/nfc/nfcmrvl/nfcmrvl_usb.ko drivers/nfc/nfcmrvl/nfcmrvl_usb.o drivers/nfc/nfcmrvl/nfcmrvl_usb.mod.o;  true

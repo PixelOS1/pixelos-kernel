@@ -1,0 +1,9 @@
+!<thin>
+//                                              66        `
+drm_nomodeset.o/
+drm_mipi_dsi.o/
+drm_panel_orientation_quirks.o/
+
+/0              0           0     0     644     4136      `
+/17             0           0     0     644     67376     `
+/33             0           0     0     644     16784     `

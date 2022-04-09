@@ -1,0 +1,1 @@
+cmd_net/mpls/mpls_iptunnel.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/mpls/mpls_iptunnel.ko net/mpls/mpls_iptunnel.o net/mpls/mpls_iptunnel.mod.o;  true

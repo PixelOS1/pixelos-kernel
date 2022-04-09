@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/cxgb/cxgb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/chelsio/cxgb/cxgb.ko drivers/net/ethernet/chelsio/cxgb/cxgb.o drivers/net/ethernet/chelsio/cxgb/cxgb.mod.o;  true

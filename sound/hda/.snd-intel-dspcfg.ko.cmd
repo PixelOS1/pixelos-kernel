@@ -1,0 +1,1 @@
+cmd_sound/hda/snd-intel-dspcfg.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/hda/snd-intel-dspcfg.ko sound/hda/snd-intel-dspcfg.o sound/hda/snd-intel-dspcfg.mod.o;  true

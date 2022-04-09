@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/machzwd.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/machzwd.ko drivers/watchdog/machzwd.o drivers/watchdog/machzwd.mod.o;  true

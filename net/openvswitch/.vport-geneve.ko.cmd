@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-geneve.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/openvswitch/vport-geneve.ko net/openvswitch/vport-geneve.o net/openvswitch/vport-geneve.mod.o;  true

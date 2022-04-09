@@ -1,0 +1,1 @@
+cmd_drivers/char/xillybus/modules.order := {   echo drivers/char/xillybus/xillybus_class.ko;   echo drivers/char/xillybus/xillybus_core.ko;   echo drivers/char/xillybus/xillybus_pcie.ko; :; } | awk '!x[$$0]++' - > drivers/char/xillybus/modules.order

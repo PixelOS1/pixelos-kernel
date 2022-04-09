@@ -1,0 +1,1 @@
+cmd_kernel/bpf/preload/bpf_preload.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o kernel/bpf/preload/bpf_preload.ko kernel/bpf/preload/bpf_preload.o kernel/bpf/preload/bpf_preload.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/i2c/other/modules.order := {   echo sound/i2c/other/snd-ak4xxx-adda.ko;   echo sound/i2c/other/snd-ak4114.ko;   echo sound/i2c/other/snd-ak4113.ko;   echo sound/i2c/other/snd-pt2258.ko; :; } | awk '!x[$$0]++' - > sound/i2c/other/modules.order

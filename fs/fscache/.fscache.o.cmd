@@ -1,0 +1,1 @@
+cmd_fs/fscache/fscache.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o fs/fscache/fscache.o fs/fscache/cache.o fs/fscache/cookie.o fs/fscache/io.o fs/fscache/main.o fs/fscache/volume.o fs/fscache/proc.o fs/fscache/stats.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-logitech-hidpp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-logitech-hidpp.ko drivers/hid/hid-logitech-hidpp.o drivers/hid/hid-logitech-hidpp.mod.o;  true

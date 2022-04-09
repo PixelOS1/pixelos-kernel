@@ -1,0 +1,5 @@
+drivers/iio/temperature/hid-sensor-temperature.ko
+drivers/iio/temperature/maxim_thermocouple.ko
+drivers/iio/temperature/max31856.ko
+drivers/iio/temperature/mlx90614.ko
+drivers/iio/temperature/mlx90632.ko

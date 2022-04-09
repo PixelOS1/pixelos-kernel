@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/microchip/modules.order := {   echo drivers/net/dsa/microchip/ksz_common.ko;   echo drivers/net/dsa/microchip/ksz9477.ko;   echo drivers/net/dsa/microchip/ksz9477_spi.ko; :; } | awk '!x[$$0]++' - > drivers/net/dsa/microchip/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/misc/altera-stapl/altera-stapl.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/altera-stapl/altera-stapl.ko drivers/misc/altera-stapl/altera-stapl.o drivers/misc/altera-stapl/altera-stapl.mod.o;  true

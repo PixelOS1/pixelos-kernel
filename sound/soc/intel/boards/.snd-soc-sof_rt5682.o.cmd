@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sof_rt5682.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o sound/soc/intel/boards/snd-soc-sof_rt5682.o sound/soc/intel/boards/sof_rt5682.o sound/soc/intel/boards/sof_realtek_common.o

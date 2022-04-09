@@ -1,0 +1,11 @@
+drivers/tty/serial/8250/8250_exar.ko
+drivers/tty/serial/8250/serial_cs.ko
+drivers/tty/serial/8250/8250_lpss.ko
+drivers/tty/serial/jsm/jsm.ko
+drivers/tty/serial/arc_uart.ko
+drivers/tty/ipwireless/ipwireless.ko
+drivers/tty/n_hdlc.ko
+drivers/tty/n_gsm.ko
+drivers/tty/nozomi.ko
+drivers/tty/ttynull.ko
+drivers/tty/synclink_gt.ko

@@ -1,0 +1,1 @@
+cmd_drivers/pci/pcie/aer_inject.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pci/pcie/aer_inject.ko drivers/pci/pcie/aer_inject.o drivers/pci/pcie/aer_inject.mod.o;  true

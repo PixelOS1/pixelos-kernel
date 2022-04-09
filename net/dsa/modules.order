@@ -1,0 +1,10 @@
+net/dsa/dsa_core.ko
+net/dsa/tag_brcm.ko
+net/dsa/tag_dsa.ko
+net/dsa/tag_gswip.ko
+net/dsa/tag_ksz.ko
+net/dsa/tag_lan9303.ko
+net/dsa/tag_mtk.ko
+net/dsa/tag_qca.ko
+net/dsa/tag_sja1105.ko
+net/dsa/tag_trailer.ko

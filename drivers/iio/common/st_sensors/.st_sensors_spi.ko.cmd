@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors_spi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/common/st_sensors/st_sensors_spi.ko drivers/iio/common/st_sensors/st_sensors_spi.o drivers/iio/common/st_sensors/st_sensors_spi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/rmi4/rmi_core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/rmi4/rmi_core.ko drivers/input/rmi4/rmi_core.o drivers/input/rmi4/rmi_core.mod.o;  true

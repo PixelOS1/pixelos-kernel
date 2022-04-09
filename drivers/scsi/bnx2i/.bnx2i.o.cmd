@@ -1,0 +1,1 @@
+cmd_drivers/scsi/bnx2i/bnx2i.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/scsi/bnx2i/bnx2i.o drivers/scsi/bnx2i/bnx2i_init.o drivers/scsi/bnx2i/bnx2i_hwi.o drivers/scsi/bnx2i/bnx2i_iscsi.o drivers/scsi/bnx2i/bnx2i_sysfs.o

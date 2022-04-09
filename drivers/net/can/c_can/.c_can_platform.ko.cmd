@@ -1,0 +1,1 @@
+cmd_drivers/net/can/c_can/c_can_platform.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/can/c_can/c_can_platform.ko drivers/net/can/c_can/c_can_platform.o drivers/net/can/c_can/c_can_platform.mod.o;  true

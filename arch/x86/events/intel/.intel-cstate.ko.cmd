@@ -1,0 +1,1 @@
+cmd_arch/x86/events/intel/intel-cstate.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o arch/x86/events/intel/intel-cstate.ko arch/x86/events/intel/intel-cstate.o arch/x86/events/intel/intel-cstate.mod.o;  true

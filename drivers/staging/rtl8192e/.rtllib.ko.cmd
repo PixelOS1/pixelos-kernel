@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8192e/rtllib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/rtl8192e/rtllib.ko drivers/staging/rtl8192e/rtllib.o drivers/staging/rtl8192e/rtllib.mod.o;  true

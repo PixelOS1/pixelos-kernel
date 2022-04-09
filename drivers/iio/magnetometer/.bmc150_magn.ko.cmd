@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/bmc150_magn.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/magnetometer/bmc150_magn.ko drivers/iio/magnetometer/bmc150_magn.o drivers/iio/magnetometer/bmc150_magn.mod.o;  true

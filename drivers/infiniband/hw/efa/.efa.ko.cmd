@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/efa/efa.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/efa/efa.ko drivers/infiniband/hw/efa/efa.o drivers/infiniband/hw/efa/efa.mod.o;  true

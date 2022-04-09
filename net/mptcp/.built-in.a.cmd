@@ -1,0 +1,1 @@
+cmd_net/mptcp/built-in.a := echo >/dev/null; rm -f net/mptcp/built-in.a; x86_64-pc-linux-gnu-ar cDPrST net/mptcp/built-in.a net/mptcp/protocol.o net/mptcp/subflow.o net/mptcp/options.o net/mptcp/token.o net/mptcp/crypto.o net/mptcp/ctrl.o net/mptcp/pm.o net/mptcp/diag.o net/mptcp/mib.o net/mptcp/pm_netlink.o net/mptcp/sockopt.o net/mptcp/syncookies.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_bitmap_ip.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipset/ip_set_bitmap_ip.ko net/netfilter/ipset/ip_set_bitmap_ip.o net/netfilter/ipset/ip_set_bitmap_ip.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/misc/cardreader/alcor_pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/cardreader/alcor_pci.ko drivers/misc/cardreader/alcor_pci.o drivers/misc/cardreader/alcor_pci.mod.o;  true

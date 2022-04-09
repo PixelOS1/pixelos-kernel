@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.mod := { echo  drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.o;  echo; } > drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.mod

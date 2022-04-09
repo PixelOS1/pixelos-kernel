@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/qedr/qedr.mod := { echo  drivers/infiniband/hw/qedr/main.o drivers/infiniband/hw/qedr/verbs.o drivers/infiniband/hw/qedr/qedr_roce_cm.o drivers/infiniband/hw/qedr/qedr_iw_cm.o;  echo; } > drivers/infiniband/hw/qedr/qedr.mod

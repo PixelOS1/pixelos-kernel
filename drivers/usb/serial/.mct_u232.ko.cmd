@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/mct_u232.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/mct_u232.ko drivers/usb/serial/mct_u232.o drivers/usb/serial/mct_u232.mod.o;  true

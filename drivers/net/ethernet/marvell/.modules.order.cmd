@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/marvell/modules.order := {   cat drivers/net/ethernet/marvell/octeontx2/modules.order;   cat drivers/net/ethernet/marvell/prestera/modules.order;   echo drivers/net/ethernet/marvell/mvmdio.ko;   echo drivers/net/ethernet/marvell/skge.ko;   echo drivers/net/ethernet/marvell/sky2.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/marvell/modules.order

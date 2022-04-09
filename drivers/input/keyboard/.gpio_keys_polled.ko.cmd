@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/gpio_keys_polled.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/gpio_keys_polled.ko drivers/input/keyboard/gpio_keys_polled.o drivers/input/keyboard/gpio_keys_polled.mod.o;  true

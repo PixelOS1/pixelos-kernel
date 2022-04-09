@@ -1,0 +1,1 @@
+cmd_drivers/net/can/cc770/cc770_platform.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/can/cc770/cc770_platform.ko drivers/net/can/cc770/cc770_platform.o drivers/net/can/cc770/cc770_platform.mod.o;  true

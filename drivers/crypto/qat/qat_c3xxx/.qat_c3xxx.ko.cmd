@@ -1,0 +1,1 @@
+cmd_drivers/crypto/qat/qat_c3xxx/qat_c3xxx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/crypto/qat/qat_c3xxx/qat_c3xxx.ko drivers/crypto/qat/qat_c3xxx/qat_c3xxx.o drivers/crypto/qat/qat_c3xxx/qat_c3xxx.mod.o;  true

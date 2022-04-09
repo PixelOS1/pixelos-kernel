@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/sw/modules.order := {   cat drivers/infiniband/sw/rdmavt/modules.order;   cat drivers/infiniband/sw/rxe/modules.order;   cat drivers/infiniband/sw/siw/modules.order; :; } | awk '!x[$$0]++' - > drivers/infiniband/sw/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/st/cw1200/cw1200_core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/st/cw1200/cw1200_core.ko drivers/net/wireless/st/cw1200/cw1200_core.o drivers/net/wireless/st/cw1200/cw1200_core.mod.o;  true

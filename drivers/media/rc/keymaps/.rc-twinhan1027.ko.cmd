@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-twinhan1027.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-twinhan1027.ko drivers/media/rc/keymaps/rc-twinhan1027.o drivers/media/rc/keymaps/rc-twinhan1027.mod.o;  true

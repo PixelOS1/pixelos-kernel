@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-bd9571mwv.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-bd9571mwv.ko drivers/gpio/gpio-bd9571mwv.o drivers/gpio/gpio-bd9571mwv.mod.o;  true

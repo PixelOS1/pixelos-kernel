@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/io_edgeport.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/io_edgeport.ko drivers/usb/serial/io_edgeport.o drivers/usb/serial/io_edgeport.mod.o;  true

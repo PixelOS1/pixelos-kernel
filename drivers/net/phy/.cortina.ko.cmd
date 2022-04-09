@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/cortina.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/cortina.ko drivers/net/phy/cortina.o drivers/net/phy/cortina.mod.o;  true

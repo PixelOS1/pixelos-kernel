@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/mk712.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/mk712.ko drivers/input/touchscreen/mk712.o drivers/input/touchscreen/mk712.mod.o;  true

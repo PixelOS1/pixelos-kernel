@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci-pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/sdhci-pci.ko drivers/mmc/host/sdhci-pci.o drivers/mmc/host/sdhci-pci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/qedi/qedi.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/scsi/qedi/qedi.o drivers/scsi/qedi/qedi_main.o drivers/scsi/qedi/qedi_iscsi.o drivers/scsi/qedi/qedi_fw.o drivers/scsi/qedi/qedi_sysfs.o drivers/scsi/qedi/qedi_dbg.o drivers/scsi/qedi/qedi_fw_api.o drivers/scsi/qedi/qedi_debugfs.o

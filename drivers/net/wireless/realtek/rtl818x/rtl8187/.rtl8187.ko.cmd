@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o drivers/media/usb/dvb-usb-v2/mxl111sf.o drivers/media/usb/dvb-usb-v2/mxl111sf-phy.o drivers/media/usb/dvb-usb-v2/mxl111sf-i2c.o drivers/media/usb/dvb-usb-v2/mxl111sf-gpio.o

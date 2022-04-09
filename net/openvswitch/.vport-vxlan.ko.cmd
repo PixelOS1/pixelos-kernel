@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-vxlan.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/openvswitch/vport-vxlan.ko net/openvswitch/vport-vxlan.o net/openvswitch/vport-vxlan.mod.o;  true

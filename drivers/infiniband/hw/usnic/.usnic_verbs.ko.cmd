@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/usnic/usnic_verbs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/usnic/usnic_verbs.ko drivers/infiniband/hw/usnic/usnic_verbs.o drivers/infiniband/hw/usnic/usnic_verbs.mod.o;  true

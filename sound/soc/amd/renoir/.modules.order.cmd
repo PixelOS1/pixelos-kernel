@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/renoir/modules.order := {   echo sound/soc/amd/renoir/snd-rn-pci-acp3x.ko;   echo sound/soc/amd/renoir/snd-acp3x-pdm-dma.ko;   echo sound/soc/amd/renoir/snd-acp3x-rn.ko; :; } | awk '!x[$$0]++' - > sound/soc/amd/renoir/modules.order

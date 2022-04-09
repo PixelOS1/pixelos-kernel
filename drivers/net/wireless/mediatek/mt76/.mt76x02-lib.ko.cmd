@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko drivers/net/wireless/mediatek/mt76/mt76x02-lib.o drivers/net/wireless/mediatek/mt76/mt76x02-lib.mod.o;  true

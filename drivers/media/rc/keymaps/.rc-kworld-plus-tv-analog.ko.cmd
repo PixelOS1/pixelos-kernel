@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.mod.o;  true

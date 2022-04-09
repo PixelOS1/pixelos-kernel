@@ -1,0 +1,1 @@
+cmd_net/dsa/dsa_core.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o net/dsa/dsa_core.o net/dsa/dsa.o net/dsa/dsa2.o net/dsa/master.o net/dsa/port.o net/dsa/slave.o net/dsa/switch.o net/dsa/tag_8021q.o

@@ -1,0 +1,1 @@
+cmd_security/keys/trusted-keys/trusted.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o security/keys/trusted-keys/trusted.o security/keys/trusted-keys/trusted_core.o security/keys/trusted-keys/trusted_tpm1.o security/keys/trusted-keys/trusted_tpm2.o security/keys/trusted-keys/tpm2key.asn1.o

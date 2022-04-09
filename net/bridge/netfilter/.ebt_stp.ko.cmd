@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_stp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_stp.ko net/bridge/netfilter/ebt_stp.o net/bridge/netfilter/ebt_stp.mod.o;  true

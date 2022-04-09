@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-cadence.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/soundwire/soundwire-cadence.ko drivers/soundwire/soundwire-cadence.o drivers/soundwire/soundwire-cadence.mod.o;  true

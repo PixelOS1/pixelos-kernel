@@ -1,0 +1,1 @@
+cmd_drivers/scsi/device_handler/scsi_dh_emc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/device_handler/scsi_dh_emc.ko drivers/scsi/device_handler/scsi_dh_emc.o drivers/scsi/device_handler/scsi_dh_emc.mod.o;  true

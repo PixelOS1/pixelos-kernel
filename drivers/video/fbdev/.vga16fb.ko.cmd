@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/vga16fb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/vga16fb.ko drivers/video/fbdev/vga16fb.o drivers/video/fbdev/vga16fb.mod.o;  true

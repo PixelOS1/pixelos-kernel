@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/orinoco/orinoco_plx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/intersil/orinoco/orinoco_plx.ko drivers/net/wireless/intersil/orinoco/orinoco_plx.o drivers/net/wireless/intersil/orinoco/orinoco_plx.mod.o;  true

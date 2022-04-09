@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/iTCO_vendor_support.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/iTCO_vendor_support.ko drivers/watchdog/iTCO_vendor_support.o drivers/watchdog/iTCO_vendor_support.mod.o;  true

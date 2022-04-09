@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors_core.o drivers/iio/common/st_sensors/st_sensors_buffer.o drivers/iio/common/st_sensors/st_sensors_trigger.o

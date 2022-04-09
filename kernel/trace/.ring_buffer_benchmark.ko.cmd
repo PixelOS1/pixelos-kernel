@@ -1,0 +1,1 @@
+cmd_kernel/trace/ring_buffer_benchmark.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o kernel/trace/ring_buffer_benchmark.ko kernel/trace/ring_buffer_benchmark.o kernel/trace/ring_buffer_benchmark.mod.o;  true

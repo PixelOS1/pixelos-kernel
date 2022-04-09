@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/zr364xx/zr364xx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/zr364xx/zr364xx.ko drivers/media/usb/zr364xx/zr364xx.o drivers/media/usb/zr364xx/zr364xx.mod.o;  true

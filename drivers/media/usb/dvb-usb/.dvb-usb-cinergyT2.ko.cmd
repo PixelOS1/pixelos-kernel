@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.ko drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.o drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.mod.o;  true

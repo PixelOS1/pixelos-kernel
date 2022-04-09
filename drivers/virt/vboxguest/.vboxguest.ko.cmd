@@ -1,0 +1,1 @@
+cmd_drivers/virt/vboxguest/vboxguest.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/virt/vboxguest/vboxguest.ko drivers/virt/vboxguest/vboxguest.o drivers/virt/vboxguest/vboxguest.mod.o;  true

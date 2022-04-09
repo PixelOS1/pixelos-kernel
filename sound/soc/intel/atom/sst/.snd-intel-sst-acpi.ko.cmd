@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/sst/snd-intel-sst-acpi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/atom/sst/snd-intel-sst-acpi.ko sound/soc/intel/atom/sst/snd-intel-sst-acpi.o sound/soc/intel/atom/sst/snd-intel-sst-acpi.mod.o;  true

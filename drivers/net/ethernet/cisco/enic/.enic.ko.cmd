@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cisco/enic/enic.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/cisco/enic/enic.ko drivers/net/ethernet/cisco/enic/enic.o drivers/net/ethernet/cisco/enic/enic.mod.o;  true

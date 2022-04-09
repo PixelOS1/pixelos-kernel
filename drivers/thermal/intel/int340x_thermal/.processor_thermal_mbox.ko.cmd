@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.ko drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.o drivers/thermal/intel/int340x_thermal/processor_thermal_mbox.mod.o;  true

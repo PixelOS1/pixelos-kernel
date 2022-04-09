@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-mmio.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/base/regmap/regmap-mmio.ko drivers/base/regmap/regmap-mmio.o drivers/base/regmap/regmap-mmio.mod.o;  true

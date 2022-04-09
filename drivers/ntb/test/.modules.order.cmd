@@ -1,0 +1,1 @@
+cmd_drivers/ntb/test/modules.order := {   echo drivers/ntb/test/ntb_pingpong.ko;   echo drivers/ntb/test/ntb_tool.ko;   echo drivers/ntb/test/ntb_perf.ko; :; } | awk '!x[$$0]++' - > drivers/ntb/test/modules.order

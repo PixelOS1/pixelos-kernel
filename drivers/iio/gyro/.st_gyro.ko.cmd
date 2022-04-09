@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/st_gyro.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/gyro/st_gyro.ko drivers/iio/gyro/st_gyro.o drivers/iio/gyro/st_gyro.mod.o;  true

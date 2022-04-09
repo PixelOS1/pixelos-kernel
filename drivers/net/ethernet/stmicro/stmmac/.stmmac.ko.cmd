@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/stmmac.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/stmicro/stmmac/stmmac.ko drivers/net/ethernet/stmicro/stmmac/stmmac.o drivers/net/ethernet/stmicro/stmmac/stmmac.mod.o;  true

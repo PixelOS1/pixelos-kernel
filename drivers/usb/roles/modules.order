@@ -1,0 +1,2 @@
+drivers/usb/roles/roles.ko
+drivers/usb/roles/intel-xhci-usb-role-switch.ko

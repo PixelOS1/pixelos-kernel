@@ -1,0 +1,1 @@
+cmd_sound/pci/ymfpci/snd-ymfpci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/ymfpci/snd-ymfpci.ko sound/pci/ymfpci/snd-ymfpci.o sound/pci/ymfpci/snd-ymfpci.mod.o;  true

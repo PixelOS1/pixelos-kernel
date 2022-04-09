@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.a := echo >/dev/null; rm -f drivers/net/phy/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/net/phy/built-in.a drivers/net/phy/mdio-boardinfo.o drivers/net/phy/mii_timestamper.o drivers/net/phy/sfp-bus.o

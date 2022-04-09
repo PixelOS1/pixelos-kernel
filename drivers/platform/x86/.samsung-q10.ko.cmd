@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/samsung-q10.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/samsung-q10.ko drivers/platform/x86/samsung-q10.o drivers/platform/x86/samsung-q10.mod.o;  true

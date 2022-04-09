@@ -1,0 +1,1 @@
+cmd_net/6lowpan/nhc_ghc_ext_route.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/6lowpan/nhc_ghc_ext_route.ko net/6lowpan/nhc_ghc_ext_route.o net/6lowpan/nhc_ghc_ext_route.mod.o;  true

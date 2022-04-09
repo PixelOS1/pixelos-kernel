@@ -1,0 +1,1 @@
+cmd_drivers/char/xillybus/xillybus_class.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/xillybus/xillybus_class.ko drivers/char/xillybus/xillybus_class.o drivers/char/xillybus/xillybus_class.mod.o;  true

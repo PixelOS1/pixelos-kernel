@@ -1,0 +1,1 @@
+cmd_fs/cachefiles/cachefiles.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o fs/cachefiles/cachefiles.o fs/cachefiles/cache.o fs/cachefiles/daemon.o fs/cachefiles/interface.o fs/cachefiles/io.o fs/cachefiles/key.o fs/cachefiles/main.o fs/cachefiles/namei.o fs/cachefiles/security.o fs/cachefiles/volume.o fs/cachefiles/xattr.o

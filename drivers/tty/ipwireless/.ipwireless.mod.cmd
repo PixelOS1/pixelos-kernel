@@ -1,0 +1,1 @@
+cmd_drivers/tty/ipwireless/ipwireless.mod := { echo  drivers/tty/ipwireless/hardware.o drivers/tty/ipwireless/main.o drivers/tty/ipwireless/network.o drivers/tty/ipwireless/tty.o;  echo; } > drivers/tty/ipwireless/ipwireless.mod

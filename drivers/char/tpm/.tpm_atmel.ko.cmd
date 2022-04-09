@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_atmel.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/tpm/tpm_atmel.ko drivers/char/tpm/tpm_atmel.o drivers/char/tpm/tpm_atmel.mod.o;  true

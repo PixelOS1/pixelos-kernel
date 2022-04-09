@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/mei_wdt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/mei_wdt.ko drivers/watchdog/mei_wdt.o drivers/watchdog/mei_wdt.mod.o;  true

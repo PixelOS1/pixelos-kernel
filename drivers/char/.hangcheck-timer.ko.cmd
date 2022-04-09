@@ -1,0 +1,1 @@
+cmd_drivers/char/hangcheck-timer.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/hangcheck-timer.ko drivers/char/hangcheck-timer.o drivers/char/hangcheck-timer.mod.o;  true

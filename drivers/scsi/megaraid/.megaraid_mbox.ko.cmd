@@ -1,0 +1,1 @@
+cmd_drivers/scsi/megaraid/megaraid_mbox.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/megaraid/megaraid_mbox.ko drivers/scsi/megaraid/megaraid_mbox.o drivers/scsi/megaraid/megaraid_mbox.mod.o;  true

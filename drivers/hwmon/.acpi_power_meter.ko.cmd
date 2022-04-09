@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/acpi_power_meter.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/acpi_power_meter.ko drivers/hwmon/acpi_power_meter.o drivers/hwmon/acpi_power_meter.mod.o;  true

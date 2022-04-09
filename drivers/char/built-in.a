@@ -1,0 +1,64 @@
+!<thin>
+//                                              504       `
+mem.o/
+random.o/
+misc.o/
+hpet.o/
+hw_random/core.o/
+agp/backend.o/
+agp/generic.o/
+agp/isoch.o/
+agp/amd64-agp.o/
+agp/intel-agp.o/
+agp/intel-gtt.o/
+agp/sis-agp.o/
+agp/via-agp.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/tpm_tis_core.o/
+tpm/tpm_tis.o/
+tpm/tpm_crb.o/
+/0              0           0     0     644     20104     `
+/7              0           0     0     644     144184    `
+/17             0           0     0     644     13432     `
+/25             0           0     0     644     25248     `
+/33             0           0     0     644     31352     `
+/51             0           0     0     644     21408     `
+/66             0           0     0     644     65112     `
+/81             0           0     0     644     7672      `
+/94             0           0     0     644     24792     `
+/111            0           0     0     644     33288     `
+/128            0           0     0     644     45488     `
+/145            0           0     0     644     15032     `
+/160            0           0     0     644     18688     `
+/175            0           0     0     644     26032     `
+/191            0           0     0     644     11368     `
+/213            0           0     0     644     4672      `
+/228            0           0     0     644     25192     `
+/249            0           0     0     644     18800     `
+/265            0           0     0     644     22632     `
+/281            0           0     0     644     3648      `
+/298            0           0     0     644     18928     `
+/316            0           0     0     644     41936     `
+/333            0           0     0     644     7072      `
+/356            0           0     0     644     8160      `
+/377            0           0     0     644     5640      `
+/398            0           0     0     644     12912     `
+/413            0           0     0     644     3752      `
+/434            0           0     0     644     4352      `
+/454            0           0     0     644     40848     `
+/474            0           0     0     644     18072     `
+/489            0           0     0     644     22920     `

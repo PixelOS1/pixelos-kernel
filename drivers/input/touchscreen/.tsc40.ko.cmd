@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc40.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/tsc40.ko drivers/input/touchscreen/tsc40.o drivers/input/touchscreen/tsc40.mod.o;  true

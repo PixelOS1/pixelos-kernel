@@ -1,0 +1,1 @@
+cmd_drivers/scsi/fcoe/fcoe.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/fcoe/fcoe.ko drivers/scsi/fcoe/fcoe.o drivers/scsi/fcoe/fcoe.mod.o;  true

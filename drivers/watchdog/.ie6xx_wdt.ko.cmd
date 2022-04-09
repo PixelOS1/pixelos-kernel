@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/ie6xx_wdt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/ie6xx_wdt.ko drivers/watchdog/ie6xx_wdt.o drivers/watchdog/ie6xx_wdt.mod.o;  true

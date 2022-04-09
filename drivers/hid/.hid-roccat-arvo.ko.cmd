@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-arvo.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-arvo.ko drivers/hid/hid-roccat-arvo.o drivers/hid/hid-roccat-arvo.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/gunze.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/gunze.ko drivers/input/touchscreen/gunze.o drivers/input/touchscreen/gunze.mod.o;  true

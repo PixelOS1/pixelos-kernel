@@ -1,0 +1,1 @@
+cmd_sound/drivers/vx/snd-vx-lib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/drivers/vx/snd-vx-lib.ko sound/drivers/vx/snd-vx-lib.o sound/drivers/vx/snd-vx-lib.mod.o;  true

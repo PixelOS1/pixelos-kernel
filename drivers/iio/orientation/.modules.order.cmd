@@ -1,0 +1,1 @@
+cmd_drivers/iio/orientation/modules.order := {   echo drivers/iio/orientation/hid-sensor-incl-3d.ko;   echo drivers/iio/orientation/hid-sensor-rotation.ko; :; } | awk '!x[$$0]++' - > drivers/iio/orientation/modules.order

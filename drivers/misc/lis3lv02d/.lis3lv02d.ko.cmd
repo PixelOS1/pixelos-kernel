@@ -1,0 +1,1 @@
+cmd_drivers/misc/lis3lv02d/lis3lv02d.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/lis3lv02d/lis3lv02d.ko drivers/misc/lis3lv02d/lis3lv02d.o drivers/misc/lis3lv02d/lis3lv02d.mod.o;  true

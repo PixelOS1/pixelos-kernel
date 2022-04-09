@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-timer.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-timer.ko drivers/leds/trigger/ledtrig-timer.o drivers/leds/trigger/ledtrig-timer.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/hfi1/hfi1.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/hfi1/hfi1.ko drivers/infiniband/hw/hfi1/hfi1.o drivers/infiniband/hw/hfi1/hfi1.mod.o;  true

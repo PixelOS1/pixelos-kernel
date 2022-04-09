@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/ucd9000.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/ucd9000.ko drivers/hwmon/pmbus/ucd9000.o drivers/hwmon/pmbus/ucd9000.mod.o;  true

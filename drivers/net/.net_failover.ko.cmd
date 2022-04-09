@@ -1,0 +1,1 @@
+cmd_drivers/net/net_failover.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/net_failover.ko drivers/net/net_failover.o drivers/net/net_failover.mod.o;  true

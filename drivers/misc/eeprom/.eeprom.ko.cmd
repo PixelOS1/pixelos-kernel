@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/eeprom.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/eeprom/eeprom.ko drivers/misc/eeprom/eeprom.o drivers/misc/eeprom/eeprom.mod.o;  true

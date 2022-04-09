@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/efa/efa.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/infiniband/hw/efa/efa.o drivers/infiniband/hw/efa/efa_com_cmd.o drivers/infiniband/hw/efa/efa_com.o drivers/infiniband/hw/efa/efa_main.o drivers/infiniband/hw/efa/efa_verbs.o

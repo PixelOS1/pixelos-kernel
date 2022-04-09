@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec-analog.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/hda/snd-hda-codec-analog.ko sound/pci/hda/snd-hda-codec-analog.o sound/pci/hda/snd-hda-codec-analog.mod.o;  true

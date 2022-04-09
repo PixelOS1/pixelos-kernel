@@ -1,0 +1,1 @@
+cmd_drivers/staging/qlge/qlge.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/qlge/qlge.ko drivers/staging/qlge/qlge.o drivers/staging/qlge/qlge.mod.o;  true

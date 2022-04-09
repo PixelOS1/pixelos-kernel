@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel/speed_select_if/isst_if_common.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/intel/speed_select_if/isst_if_common.ko drivers/platform/x86/intel/speed_select_if/isst_if_common.o drivers/platform/x86/intel/speed_select_if/isst_if_common.mod.o;  true

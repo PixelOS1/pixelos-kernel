@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/penmount.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/penmount.ko drivers/input/touchscreen/penmount.o drivers/input/touchscreen/penmount.mod.o;  true

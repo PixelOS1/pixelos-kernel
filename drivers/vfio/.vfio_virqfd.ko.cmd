@@ -1,0 +1,1 @@
+cmd_drivers/vfio/vfio_virqfd.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/vfio/vfio_virqfd.ko drivers/vfio/vfio_virqfd.o drivers/vfio/vfio_virqfd.mod.o;  true

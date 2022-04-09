@@ -1,0 +1,173 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0x2295b0d6, "kmem_cache_destroy" },
+	{ 0x2a0fd129, "kmalloc_caches" },
+	{ 0x9dbe0674, "ata_port_wait_eh" },
+	{ 0xe2c17b5d, "__SCT__might_resched" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0x9b074f32, "__pm_runtime_idle" },
+	{ 0xf2cb9e35, "scsi_change_queue_depth" },
+	{ 0xe8a60fe3, "sas_remove_children" },
+	{ 0x2b8ab42, "sg_copy_to_buffer" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0x64ff53ec, "blk_abort_request" },
+	{ 0x7d466a68, "scsi_block_requests" },
+	{ 0x84651857, "ata_std_sched_eh" },
+	{ 0x32700178, "sas_port_free" },
+	{ 0x8ed33d7f, "ata_host_put" },
+	{ 0x905695ab, "sg_copy_from_buffer" },
+	{ 0x8f410af0, "sas_phy_add" },
+	{ 0xdd4b8dcd, "scsi_unblock_requests" },
+	{ 0x41e0ed3d, "scsi_done" },
+	{ 0xd4673394, "ata_sas_slave_configure" },
+	{ 0xd21b61bd, "async_schedule_node_domain" },
+	{ 0x4e68c1fc, "ata_scsi_cmd_error_handler" },
+	{ 0xc594d618, "sas_port_add_phy" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0x837b7b09, "__dynamic_pr_debug" },
+	{ 0x87b8798d, "sg_next" },
+	{ 0x8133e006, "sas_rphy_free" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0xc2ef9e6a, "sas_port_delete_phy" },
+	{ 0xd4f925d2, "__pm_runtime_resume" },
+	{ 0x8549e1f6, "sas_rphy_add" },
+	{ 0x6929829e, "ata_sas_port_suspend" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xbbe463ef, "ata_sas_port_init" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0xf9034196, "sas_port_delete" },
+	{ 0xfadce0cd, "ata_sas_async_probe" },
+	{ 0x4b432a03, "scsi_host_busy" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x83e780d8, "sas_attach_transport" },
+	{ 0x25974000, "wait_for_completion" },
+	{ 0xb447a8e1, "scsi_is_host_device" },
+	{ 0x1b67dcba, "sas_rphy_delete" },
+	{ 0xd8f50b20, "_dev_warn" },
+	{ 0x73285ea3, "ata_sas_port_stop" },
+	{ 0xc6d61c63, "sas_expander_alloc" },
+	{ 0xd35cce70, "_raw_spin_unlock_irqrestore" },
+	{ 0xc23477d, "current_task" },
+	{ 0xee3c884e, "sas_read_port_mode_page" },
+	{ 0x89940875, "mutex_lock_interruptible" },
+	{ 0x7c229eed, "sas_end_device_alloc" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0xc2f158d8, "ata_std_error_handler" },
+	{ 0x6792defb, "ata_scsi_port_error_handler" },
+	{ 0x45131539, "ata_sas_port_start" },
+	{ 0x4b750f53, "_raw_spin_unlock_irq" },
+	{ 0xc3d7094a, "ata_std_qc_defer" },
+	{ 0xf9744d28, "kmem_cache_free" },
+	{ 0xee35c1cf, "sas_port_mark_backlink" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x1b4f8c5c, "sas_port_add" },
+	{ 0x24d273d1, "add_timer" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xf811e69d, "scsi_eh_flush_done_q" },
+	{ 0x800ca690, "ata_port_schedule_eh" },
+	{ 0x7ea9f2cf, "ata_sas_port_alloc" },
+	{ 0xfbd32e3e, "ata_noop_qc_prep" },
+	{ 0x1d3d4131, "scsi_eh_finish_cmd" },
+	{ 0x6705c65a, "sas_phy_free" },
+	{ 0x40a4c25b, "_dev_info" },
+	{ 0xff3b6bff, "kmem_cache_alloc" },
+	{ 0x5ec62549, "ata_dev_classify" },
+	{ 0x6383b27c, "__x86_indirect_thunk_rdx" },
+	{ 0xe13b059a, "ata_sas_tport_delete" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x761527a1, "put_device" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x7646cee, "ata_tf_to_fis" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x8427cc7b, "_raw_spin_lock_irq" },
+	{ 0x92997ed8, "_printk" },
+	{ 0x65487097, "__x86_indirect_thunk_rax" },
+	{ 0xa0715105, "sas_phy_alloc" },
+	{ 0x50cf7585, "hex2bin" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0xfd55c691, "ata_wait_after_reset" },
+	{ 0xf414a440, "kmem_cache_alloc_trace" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0x34db050b, "_raw_spin_lock_irqsave" },
+	{ 0x16e6d67f, "get_device" },
+	{ 0x6f3cb84f, "kmem_cache_create" },
+	{ 0x26c90ea4, "scsi_eh_get_sense" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0x5ed90adc, "int_to_scsilun" },
+	{ 0xb320cc0e, "sg_init_one" },
+	{ 0x687c2da8, "ata_sas_port_resume" },
+	{ 0xe54a4950, "sas_port_get_phy" },
+	{ 0x54496b4, "schedule_timeout_interruptible" },
+	{ 0x6545ed8f, "scsi_eh_ready_devs" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x6ca4bf88, "async_synchronize_full_domain" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x9384cd49, "ata_tf_from_fis" },
+	{ 0x11439819, "sas_port_alloc" },
+	{ 0x898e4621, "ata_host_init" },
+	{ 0x96848186, "scnprintf" },
+	{ 0x1564421, "request_firmware" },
+	{ 0x6bfa9fe5, "scsi_schedule_eh" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x608741b5, "__init_swait_queue_head" },
+	{ 0xaebaa302, "ata_sas_tport_add" },
+	{ 0xb742fd7, "simple_strtol" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0xae6a1937, "sas_rphy_unlink" },
+	{ 0xa6257a2f, "complete" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xab9ae16d, "ata_sas_queuecmd" },
+	{ 0x96e91be1, "bsg_job_done" },
+	{ 0x5b04d302, "ata_sas_port_destroy" },
+	{ 0xa38602cd, "drain_workqueue" },
+	{ 0x112318c9, "sas_rphy_remove" },
+	{ 0x49cd25ed, "alloc_workqueue" },
+	{ 0xc6d09aa9, "release_firmware" },
+	{ 0x5dec192, "ata_sas_scsi_ioctl" },
+	{ 0x70a223c, "__ata_change_queue_depth" },
+	{ 0x4239a5e4, "ata_qc_complete" },
+};
+
+MODULE_INFO(depends, "scsi_transport_sas");
+
+
+MODULE_INFO(srcversion, "FFC3917D865A34C3EE05153");

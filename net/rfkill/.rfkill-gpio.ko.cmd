@@ -1,0 +1,1 @@
+cmd_net/rfkill/rfkill-gpio.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/rfkill/rfkill-gpio.ko net/rfkill/rfkill-gpio.o net/rfkill/rfkill-gpio.mod.o;  true

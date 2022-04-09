@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtw88/rtw88_8822c.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtw88/rtw88_8822c.ko drivers/net/wireless/realtek/rtw88/rtw88_8822c.o drivers/net/wireless/realtek/rtw88/rtw88_8822c.mod.o;  true

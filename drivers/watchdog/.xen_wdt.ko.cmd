@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/xen_wdt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/xen_wdt.ko drivers/watchdog/xen_wdt.o drivers/watchdog/xen_wdt.mod.o;  true

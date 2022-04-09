@@ -1,0 +1,1 @@
+cmd_drivers/usb/roles/intel-xhci-usb-role-switch.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/roles/intel-xhci-usb-role-switch.ko drivers/usb/roles/intel-xhci-usb-role-switch.o drivers/usb/roles/intel-xhci-usb-role-switch.mod.o;  true

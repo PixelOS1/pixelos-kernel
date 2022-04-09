@@ -1,0 +1,1 @@
+cmd_net/dsa/modules.order := {   echo net/dsa/dsa_core.ko;   echo net/dsa/tag_brcm.ko;   echo net/dsa/tag_dsa.ko;   echo net/dsa/tag_gswip.ko;   echo net/dsa/tag_ksz.ko;   echo net/dsa/tag_lan9303.ko;   echo net/dsa/tag_mtk.ko;   echo net/dsa/tag_qca.ko;   echo net/dsa/tag_sja1105.ko;   echo net/dsa/tag_trailer.ko; :; } | awk '!x[$$0]++' - > net/dsa/modules.order

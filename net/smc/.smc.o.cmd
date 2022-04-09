@@ -1,0 +1,1 @@
+cmd_net/smc/smc.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o net/smc/smc.o net/smc/af_smc.o net/smc/smc_pnet.o net/smc/smc_ib.o net/smc/smc_clc.o net/smc/smc_core.o net/smc/smc_wr.o net/smc/smc_llc.o net/smc/smc_cdc.o net/smc/smc_tx.o net/smc/smc_rx.o net/smc/smc_close.o net/smc/smc_ism.o net/smc/smc_netlink.o net/smc/smc_stats.o net/smc/smc_tracepoint.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_sunplus.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_sunplus.ko drivers/media/usb/gspca/gspca_sunplus.o drivers/media/usb/gspca/gspca_sunplus.mod.o;  true

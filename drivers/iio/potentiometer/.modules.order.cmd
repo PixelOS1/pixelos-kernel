@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/modules.order := {   echo drivers/iio/potentiometer/ad5272.ko;   echo drivers/iio/potentiometer/mcp4018.ko;   echo drivers/iio/potentiometer/mcp41010.ko; :; } | awk '!x[$$0]++' - > drivers/iio/potentiometer/modules.order

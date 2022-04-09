@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-default-on.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-default-on.ko drivers/leds/trigger/ledtrig-default-on.o drivers/leds/trigger/ledtrig-default-on.mod.o;  true

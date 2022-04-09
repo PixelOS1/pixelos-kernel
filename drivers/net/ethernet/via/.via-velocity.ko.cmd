@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/via/via-velocity.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/via/via-velocity.ko drivers/net/ethernet/via/via-velocity.o drivers/net/ethernet/via/via-velocity.mod.o;  true

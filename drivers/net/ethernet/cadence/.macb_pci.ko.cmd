@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cadence/macb_pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/cadence/macb_pci.ko drivers/net/ethernet/cadence/macb_pci.o drivers/net/ethernet/cadence/macb_pci.mod.o;  true

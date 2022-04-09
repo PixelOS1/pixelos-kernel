@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76-connac-lib.mod := { echo  drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o drivers/net/wireless/mediatek/mt76/mt76_connac_mac.o;  echo; } > drivers/net/wireless/mediatek/mt76/mt76-connac-lib.mod

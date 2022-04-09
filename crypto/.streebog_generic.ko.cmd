@@ -1,0 +1,1 @@
+cmd_crypto/streebog_generic.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o crypto/streebog_generic.ko crypto/streebog_generic.o crypto/streebog_generic.mod.o;  true

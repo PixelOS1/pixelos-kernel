@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o drivers/net/wireless/mediatek/mt76/mt76x0/init.o drivers/net/wireless/mediatek/mt76/mt76x0/main.o drivers/net/wireless/mediatek/mt76/mt76x0/eeprom.o drivers/net/wireless/mediatek/mt76/mt76x0/phy.o

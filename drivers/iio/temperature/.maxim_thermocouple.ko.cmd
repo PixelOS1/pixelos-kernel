@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/maxim_thermocouple.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/temperature/maxim_thermocouple.ko drivers/iio/temperature/maxim_thermocouple.o drivers/iio/temperature/maxim_thermocouple.mod.o;  true

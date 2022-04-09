@@ -1,0 +1,64 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0x2a0fd129, "kmalloc_caches" },
+	{ 0xe2c17b5d, "__SCT__might_resched" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0x49843e91, "__hci_cmd_sync" },
+	{ 0xa0fbac79, "wake_up_bit" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0xb43f9365, "ktime_get" },
+	{ 0x837b7b09, "__dynamic_pr_debug" },
+	{ 0x44bae227, "bit_wait_timeout" },
+	{ 0x81d66d02, "__hci_cmd_sync_ev" },
+	{ 0x7b8c32f1, "bt_err" },
+	{ 0x7aad008b, "bt_to_errno" },
+	{ 0x718b8b7, "bt_info" },
+	{ 0xc6f30039, "__regmap_init" },
+	{ 0x449ad0a7, "memcmp" },
+	{ 0x9f0537a8, "kfree_skb_reason" },
+	{ 0x4071b517, "out_of_line_wait_on_bit_timeout" },
+	{ 0x7d3063fb, "skb_pull" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x888bc2bc, "request_firmware_direct" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xfea1287f, "hci_cmd_sync" },
+	{ 0xf414a440, "kmem_cache_alloc_trace" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x1564421, "request_firmware" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x4c681602, "firmware_request_nowarn" },
+	{ 0xc6d09aa9, "release_firmware" },
+};
+
+MODULE_INFO(depends, "bluetooth");
+
+
+MODULE_INFO(srcversion, "591A464C2A4D534E5622D95");

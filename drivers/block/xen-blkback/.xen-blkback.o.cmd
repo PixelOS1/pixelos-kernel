@@ -1,0 +1,1 @@
+cmd_drivers/block/xen-blkback/xen-blkback.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/block/xen-blkback/xen-blkback.o drivers/block/xen-blkback/blkback.o drivers/block/xen-blkback/xenbus.o

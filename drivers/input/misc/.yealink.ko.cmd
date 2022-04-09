@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/yealink.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/yealink.ko drivers/input/misc/yealink.o drivers/input/misc/yealink.mod.o;  true

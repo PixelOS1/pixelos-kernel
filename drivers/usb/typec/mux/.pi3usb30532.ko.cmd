@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/mux/pi3usb30532.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/mux/pi3usb30532.ko drivers/usb/typec/mux/pi3usb30532.o drivers/usb/typec/mux/pi3usb30532.mod.o;  true

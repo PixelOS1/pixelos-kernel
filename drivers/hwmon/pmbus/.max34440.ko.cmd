@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/max34440.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/max34440.ko drivers/hwmon/pmbus/max34440.o drivers/hwmon/pmbus/max34440.mod.o;  true

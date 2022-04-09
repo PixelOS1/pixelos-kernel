@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/libcxgb/libcxgb.mod := { echo  drivers/net/ethernet/chelsio/libcxgb/libcxgb_ppm.o drivers/net/ethernet/chelsio/libcxgb/libcxgb_cm.o;  echo; } > drivers/net/ethernet/chelsio/libcxgb/libcxgb.mod

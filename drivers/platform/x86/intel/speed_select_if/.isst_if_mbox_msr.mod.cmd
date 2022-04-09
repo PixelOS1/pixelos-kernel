@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel/speed_select_if/isst_if_mbox_msr.mod := { echo  drivers/platform/x86/intel/speed_select_if/isst_if_mbox_msr.o;  echo; } > drivers/platform/x86/intel/speed_select_if/isst_if_mbox_msr.mod

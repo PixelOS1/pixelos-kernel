@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/hd44780_common.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/auxdisplay/hd44780_common.ko drivers/auxdisplay/hd44780_common.o drivers/auxdisplay/hd44780_common.mod.o;  true

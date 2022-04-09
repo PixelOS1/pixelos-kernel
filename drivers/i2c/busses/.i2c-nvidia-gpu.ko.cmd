@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-nvidia-gpu.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-nvidia-gpu.ko drivers/i2c/busses/i2c-nvidia-gpu.o drivers/i2c/busses/i2c-nvidia-gpu.mod.o;  true

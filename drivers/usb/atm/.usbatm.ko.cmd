@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/usbatm.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/atm/usbatm.ko drivers/usb/atm/usbatm.o drivers/usb/atm/usbatm.mod.o;  true

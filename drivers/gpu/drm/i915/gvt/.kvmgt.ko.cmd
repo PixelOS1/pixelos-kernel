@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i915/gvt/kvmgt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/i915/gvt/kvmgt.ko drivers/gpu/drm/i915/gvt/kvmgt.o drivers/gpu/drm/i915/gvt/kvmgt.mod.o;  true

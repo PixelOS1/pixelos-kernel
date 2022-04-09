@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/cc2520.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ieee802154/cc2520.ko drivers/net/ieee802154/cc2520.o drivers/net/ieee802154/cc2520.mod.o;  true

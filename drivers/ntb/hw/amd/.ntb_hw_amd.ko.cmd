@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/amd/ntb_hw_amd.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ntb/hw/amd/ntb_hw_amd.ko drivers/ntb/hw/amd/ntb_hw_amd.o drivers/ntb/hw/amd/ntb_hw_amd.mod.o;  true

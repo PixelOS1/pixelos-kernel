@@ -1,0 +1,1 @@
+cmd_drivers/block/null_blk/null_blk.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/block/null_blk/null_blk.ko drivers/block/null_blk/null_blk.o drivers/block/null_blk/null_blk.mod.o;  true

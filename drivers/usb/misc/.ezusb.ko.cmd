@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/ezusb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/ezusb.ko drivers/usb/misc/ezusb.o drivers/usb/misc/ezusb.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/ixgb/ixgb.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/ethernet/intel/ixgb/ixgb.o drivers/net/ethernet/intel/ixgb/ixgb_main.o drivers/net/ethernet/intel/ixgb/ixgb_hw.o drivers/net/ethernet/intel/ixgb/ixgb_ee.o drivers/net/ethernet/intel/ixgb/ixgb_ethtool.o drivers/net/ethernet/intel/ixgb/ixgb_param.o

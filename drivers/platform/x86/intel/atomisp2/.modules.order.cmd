@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel/atomisp2/modules.order := {   echo drivers/platform/x86/intel/atomisp2/intel_atomisp2_pm.ko; :; } | awk '!x[$$0]++' - > drivers/platform/x86/intel/atomisp2/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/message/fusion/mptspi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/message/fusion/mptspi.ko drivers/message/fusion/mptspi.o drivers/message/fusion/mptspi.mod.o;  true

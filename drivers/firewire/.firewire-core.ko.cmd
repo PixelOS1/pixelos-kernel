@@ -1,0 +1,1 @@
+cmd_drivers/firewire/firewire-core.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/firewire/firewire-core.ko drivers/firewire/firewire-core.o drivers/firewire/firewire-core.mod.o;  true

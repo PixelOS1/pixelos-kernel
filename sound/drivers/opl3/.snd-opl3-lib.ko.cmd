@@ -1,0 +1,1 @@
+cmd_sound/drivers/opl3/snd-opl3-lib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/drivers/opl3/snd-opl3-lib.ko sound/drivers/opl3/snd-opl3-lib.o sound/drivers/opl3/snd-opl3-lib.mod.o;  true

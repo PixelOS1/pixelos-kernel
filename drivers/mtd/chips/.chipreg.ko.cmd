@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/chipreg.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mtd/chips/chipreg.ko drivers/mtd/chips/chipreg.o drivers/mtd/chips/chipreg.mod.o;  true

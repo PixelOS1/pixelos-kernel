@@ -1,0 +1,13 @@
+drivers/mfd/sm501.ko
+drivers/mfd/bd9571mwv.ko
+drivers/mfd/mfd-core.ko
+drivers/mfd/axp20x.ko
+drivers/mfd/axp20x-i2c.ko
+drivers/mfd/lpc_sch.ko
+drivers/mfd/lpc_ich.ko
+drivers/mfd/vx855.ko
+drivers/mfd/wl1273-core.ko
+drivers/mfd/intel-lpss.ko
+drivers/mfd/intel-lpss-pci.ko
+drivers/mfd/intel-lpss-acpi.ko
+drivers/mfd/viperboard.ko

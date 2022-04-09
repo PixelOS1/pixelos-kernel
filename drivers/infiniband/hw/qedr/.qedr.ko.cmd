@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/qedr/qedr.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/qedr/qedr.ko drivers/infiniband/hw/qedr/qedr.o drivers/infiniband/hw/qedr/qedr.mod.o;  true

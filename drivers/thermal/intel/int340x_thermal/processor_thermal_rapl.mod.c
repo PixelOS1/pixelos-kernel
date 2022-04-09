@@ -1,0 +1,47 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0xc0013398, "__cpuhp_remove_state" },
+	{ 0x837b7b09, "__dynamic_pr_debug" },
+	{ 0x6e841389, "cpu_info" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0x786053f3, "rapl_remove_package" },
+	{ 0xd7cdf97b, "powercap_register_control_type" },
+	{ 0x6feabb13, "__cpuhp_setup_state" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xb19a5453, "__per_cpu_offset" },
+	{ 0x761e2be8, "rapl_find_package_domain" },
+	{ 0xe42df181, "rapl_add_package" },
+	{ 0xedeaaf19, "powercap_unregister_control_type" },
+	{ 0x8810754a, "_find_first_bit" },
+};
+
+MODULE_INFO(depends, "intel_rapl_common");
+
+
+MODULE_INFO(srcversion, "299AA244BEF21EC1F1844B2");

@@ -1,0 +1,1 @@
+cmd_drivers/firmware/qemu_fw_cfg.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/firmware/qemu_fw_cfg.ko drivers/firmware/qemu_fw_cfg.o drivers/firmware/qemu_fw_cfg.mod.o;  true

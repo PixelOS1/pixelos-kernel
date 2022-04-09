@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_roundrobin.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/team/team_mode_roundrobin.ko drivers/net/team/team_mode_roundrobin.o drivers/net/team/team_mode_roundrobin.mod.o;  true

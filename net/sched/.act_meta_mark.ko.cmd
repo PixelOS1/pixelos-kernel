@@ -1,0 +1,1 @@
+cmd_net/sched/act_meta_mark.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/sched/act_meta_mark.ko net/sched/act_meta_mark.o net/sched/act_meta_mark.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/pci/au88x0/modules.order := {   echo sound/pci/au88x0/snd-au8810.ko;   echo sound/pci/au88x0/snd-au8820.ko;   echo sound/pci/au88x0/snd-au8830.ko; :; } | awk '!x[$$0]++' - > sound/pci/au88x0/modules.order

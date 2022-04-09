@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn544/pn544_mei.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/nfc/pn544/pn544_mei.ko drivers/nfc/pn544/pn544_mei.o drivers/nfc/pn544/pn544_mei.mod.o;  true

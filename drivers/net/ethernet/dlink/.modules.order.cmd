@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/dlink/modules.order := {   echo drivers/net/ethernet/dlink/dl2k.ko;   echo drivers/net/ethernet/dlink/sundance.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/dlink/modules.order

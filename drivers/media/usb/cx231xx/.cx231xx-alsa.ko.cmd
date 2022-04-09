@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-alsa.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/cx231xx/cx231xx-alsa.ko drivers/media/usb/cx231xx/cx231xx-alsa.o drivers/media/usb/cx231xx/cx231xx-alsa.mod.o;  true

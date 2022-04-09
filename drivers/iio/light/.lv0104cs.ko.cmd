@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/lv0104cs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/lv0104cs.ko drivers/iio/light/lv0104cs.o drivers/iio/light/lv0104cs.mod.o;  true

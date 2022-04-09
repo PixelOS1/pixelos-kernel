@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/kvaser_usb/kvaser_usb.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/can/usb/kvaser_usb/kvaser_usb.o drivers/net/can/usb/kvaser_usb/kvaser_usb_core.o drivers/net/can/usb/kvaser_usb/kvaser_usb_leaf.o drivers/net/can/usb/kvaser_usb/kvaser_usb_hydra.o

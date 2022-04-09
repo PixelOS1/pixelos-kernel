@@ -1,0 +1,1 @@
+cmd_net/mac802154/mac802154.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o net/mac802154/mac802154.o net/mac802154/main.o net/mac802154/rx.o net/mac802154/tx.o net/mac802154/mac_cmd.o net/mac802154/mib.o net/mac802154/iface.o net/mac802154/llsec.o net/mac802154/util.o net/mac802154/cfg.o net/mac802154/trace.o

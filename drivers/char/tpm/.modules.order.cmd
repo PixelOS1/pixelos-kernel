@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/modules.order := {   echo drivers/char/tpm/tpm_tis_spi.ko;   echo drivers/char/tpm/tpm_nsc.ko;   echo drivers/char/tpm/tpm_atmel.ko;   echo drivers/char/tpm/tpm_infineon.ko;   echo drivers/char/tpm/tpm_vtpm_proxy.ko; :; } | awk '!x[$$0]++' - > drivers/char/tpm/modules.order

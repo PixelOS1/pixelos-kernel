@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/peak_pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/can/sja1000/peak_pci.ko drivers/net/can/sja1000/peak_pci.o drivers/net/can/sja1000/peak_pci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/atheros/atl1e/atl1e.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/atheros/atl1e/atl1e.ko drivers/net/ethernet/atheros/atl1e/atl1e.o drivers/net/ethernet/atheros/atl1e/atl1e.mod.o;  true

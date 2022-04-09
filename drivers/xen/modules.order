@@ -1,0 +1,8 @@
+drivers/xen/xen-pciback/xen-pciback.ko
+drivers/xen/xen-evtchn.ko
+drivers/xen/xen-gntdev.ko
+drivers/xen/xen-gntalloc.ko
+drivers/xen/xenfs/xenfs.ko
+drivers/xen/xen-privcmd.ko
+drivers/xen/xen-acpi-processor.ko
+drivers/xen/xen-scsiback.ko

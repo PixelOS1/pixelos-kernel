@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/micrel.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/micrel.ko drivers/net/phy/micrel.o drivers/net/phy/micrel.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/atheros/alx/alx.mod := { echo  drivers/net/ethernet/atheros/alx/main.o drivers/net/ethernet/atheros/alx/ethtool.o drivers/net/ethernet/atheros/alx/hw.o;  echo; } > drivers/net/ethernet/atheros/alx/alx.mod

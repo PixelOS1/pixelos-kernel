@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/cxacru.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/atm/cxacru.ko drivers/usb/atm/cxacru.o drivers/usb/atm/cxacru.mod.o;  true

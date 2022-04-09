@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TCPOPTSTRIP.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_TCPOPTSTRIP.ko net/netfilter/xt_TCPOPTSTRIP.o net/netfilter/xt_TCPOPTSTRIP.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/megaraid/modules.order := {   echo drivers/scsi/megaraid/megaraid_mm.ko;   echo drivers/scsi/megaraid/megaraid_mbox.ko;   echo drivers/scsi/megaraid/megaraid_sas.ko; :; } | awk '!x[$$0]++' - > drivers/scsi/megaraid/modules.order

@@ -1,0 +1,1 @@
+cmd_sound/pci/lx6464es/snd-lx6464es.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/lx6464es/snd-lx6464es.ko sound/pci/lx6464es/snd-lx6464es.o sound/pci/lx6464es/snd-lx6464es.mod.o;  true

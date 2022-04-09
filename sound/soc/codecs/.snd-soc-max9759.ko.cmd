@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-max9759.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-max9759.ko sound/soc/codecs/snd-soc-max9759.o sound/soc/codecs/snd-soc-max9759.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_ser_fdx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/hamradio/baycom_ser_fdx.ko drivers/net/hamradio/baycom_ser_fdx.o drivers/net/hamradio/baycom_ser_fdx.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/can/m_can/m_can.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/can/m_can/m_can.ko drivers/net/can/m_can/m_can.o drivers/net/can/m_can/m_can.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufshcd-pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/ufs/ufshcd-pci.ko drivers/scsi/ufs/ufshcd-pci.o drivers/scsi/ufs/ufshcd-pci.mod.o;  true

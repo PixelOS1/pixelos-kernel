@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/via/modules.order := {   echo drivers/net/ethernet/via/via-rhine.ko;   echo drivers/net/ethernet/via/via-velocity.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/via/modules.order

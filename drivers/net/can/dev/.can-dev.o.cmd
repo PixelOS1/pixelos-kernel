@@ -1,0 +1,1 @@
+cmd_drivers/net/can/dev/can-dev.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/can/dev/can-dev.o drivers/net/can/dev/bittiming.o drivers/net/can/dev/dev.o drivers/net/can/dev/length.o drivers/net/can/dev/netlink.o drivers/net/can/dev/rx-offload.o drivers/net/can/dev/skb.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgs8gxx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/lgs8gxx.ko drivers/media/dvb-frontends/lgs8gxx.o drivers/media/dvb-frontends/lgs8gxx.mod.o;  true

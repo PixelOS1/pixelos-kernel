@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.a := echo >/dev/null; rm -f drivers/gpio/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/gpio/built-in.a drivers/gpio/gpiolib.o drivers/gpio/gpiolib-devres.o drivers/gpio/gpiolib-legacy.o drivers/gpio/gpiolib-cdev.o drivers/gpio/gpiolib-acpi.o

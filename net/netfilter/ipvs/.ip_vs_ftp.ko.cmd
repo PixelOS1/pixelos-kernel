@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_ftp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipvs/ip_vs_ftp.ko net/netfilter/ipvs/ip_vs_ftp.o net/netfilter/ipvs/ip_vs_ftp.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio/mdio-bitbang.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-bitbang.ko drivers/net/mdio/mdio-bitbang.o drivers/net/mdio/mdio-bitbang.mod.o;  true

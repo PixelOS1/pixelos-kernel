@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/bsd_comp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/bsd_comp.ko drivers/net/ppp/bsd_comp.o drivers/net/ppp/bsd_comp.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/common/modules.order := {   echo sound/soc/intel/common/snd-soc-sst-dsp.ko;   echo sound/soc/intel/common/snd-soc-sst-ipc.ko;   echo sound/soc/intel/common/snd-soc-acpi-intel-match.ko; :; } | awk '!x[$$0]++' - > sound/soc/intel/common/modules.order

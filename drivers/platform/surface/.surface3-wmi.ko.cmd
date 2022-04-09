@@ -1,0 +1,1 @@
+cmd_drivers/platform/surface/surface3-wmi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/surface/surface3-wmi.ko drivers/platform/surface/surface3-wmi.o drivers/platform/surface/surface3-wmi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-cherry.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-cherry.ko drivers/hid/hid-cherry.o drivers/hid/hid-cherry.mod.o;  true

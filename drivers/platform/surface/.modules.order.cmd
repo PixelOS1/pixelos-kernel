@@ -1,0 +1,1 @@
+cmd_drivers/platform/surface/modules.order := {   echo drivers/platform/surface/surface3-wmi.ko;   echo drivers/platform/surface/surface3_button.ko;   echo drivers/platform/surface/surfacepro3_button.ko; :; } | awk '!x[$$0]++' - > drivers/platform/surface/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/lt3651-charger.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/lt3651-charger.ko drivers/power/supply/lt3651-charger.o drivers/power/supply/lt3651-charger.mod.o;  true

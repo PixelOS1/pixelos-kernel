@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/8250/8250_lpss.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/8250/8250_lpss.ko drivers/tty/serial/8250/8250_lpss.o drivers/tty/serial/8250/8250_lpss.mod.o;  true

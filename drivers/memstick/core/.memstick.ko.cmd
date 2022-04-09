@@ -1,0 +1,1 @@
+cmd_drivers/memstick/core/memstick.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/memstick/core/memstick.ko drivers/memstick/core/memstick.o drivers/memstick/core/memstick.mod.o;  true

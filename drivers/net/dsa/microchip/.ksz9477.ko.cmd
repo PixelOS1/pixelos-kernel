@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/microchip/ksz9477.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/microchip/ksz9477.ko drivers/net/dsa/microchip/ksz9477.o drivers/net/dsa/microchip/ksz9477.mod.o;  true

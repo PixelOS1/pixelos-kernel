@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0299.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/stv0299.ko drivers/media/dvb-frontends/stv0299.o drivers/media/dvb-frontends/stv0299.mod.o;  true

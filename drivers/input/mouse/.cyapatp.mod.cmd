@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/cyapatp.mod := { echo  drivers/input/mouse/cyapa.o drivers/input/mouse/cyapa_gen3.o drivers/input/mouse/cyapa_gen5.o drivers/input/mouse/cyapa_gen6.o;  echo; } > drivers/input/mouse/cyapatp.mod

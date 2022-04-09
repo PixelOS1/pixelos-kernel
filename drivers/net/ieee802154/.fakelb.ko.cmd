@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/fakelb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ieee802154/fakelb.ko drivers/net/ieee802154/fakelb.o drivers/net/ieee802154/fakelb.mod.o;  true

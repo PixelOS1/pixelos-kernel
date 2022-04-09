@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-u2fzero.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-u2fzero.ko drivers/hid/hid-u2fzero.o drivers/hid/hid-u2fzero.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/rocker/rocker.mod := { echo  drivers/net/ethernet/rocker/rocker_main.o drivers/net/ethernet/rocker/rocker_tlv.o drivers/net/ethernet/rocker/rocker_ofdpa.o;  echo; } > drivers/net/ethernet/rocker/rocker.mod

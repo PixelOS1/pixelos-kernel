@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/ucsi/typec_ucsi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/ucsi/typec_ucsi.ko drivers/usb/typec/ucsi/typec_ucsi.o drivers/usb/typec/ucsi/typec_ucsi.mod.o;  true

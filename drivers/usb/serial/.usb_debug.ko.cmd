@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usb_debug.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/usb_debug.ko drivers/usb/serial/usb_debug.o drivers/usb/serial/usb_debug.mod.o;  true

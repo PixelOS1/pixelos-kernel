@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/f71808e_wdt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/f71808e_wdt.ko drivers/watchdog/f71808e_wdt.o drivers/watchdog/f71808e_wdt.mod.o;  true

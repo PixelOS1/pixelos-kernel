@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-prodikeys.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-prodikeys.ko drivers/hid/hid-prodikeys.o drivers/hid/hid-prodikeys.mod.o;  true

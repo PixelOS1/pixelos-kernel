@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/cyapatp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/mouse/cyapatp.ko drivers/input/mouse/cyapatp.o drivers/input/mouse/cyapatp.mod.o;  true

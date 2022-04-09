@@ -1,0 +1,1 @@
+cmd_drivers/ata/pata_cmd64x.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ata/pata_cmd64x.ko drivers/ata/pata_cmd64x.o drivers/ata/pata_cmd64x.mod.o;  true

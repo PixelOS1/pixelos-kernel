@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/modules.order := {   echo drivers/cpufreq/acpi-cpufreq.ko;   echo drivers/cpufreq/powernow-k8.ko;   echo drivers/cpufreq/pcc-cpufreq.ko;   echo drivers/cpufreq/speedstep-lib.ko;   echo drivers/cpufreq/p4-clockmod.ko;   echo drivers/cpufreq/amd_freq_sensitivity.ko; :; } | awk '!x[$$0]++' - > drivers/cpufreq/modules.order

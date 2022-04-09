@@ -1,0 +1,1 @@
+cmd_drivers/video/built-in.a := echo >/dev/null; rm -f drivers/video/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/video/built-in.a drivers/video/hdmi.o drivers/video/console/built-in.a drivers/video/backlight/built-in.a drivers/video/fbdev/built-in.a

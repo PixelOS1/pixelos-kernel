@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn533/modules.order := {   echo drivers/nfc/pn533/pn533.ko;   echo drivers/nfc/pn533/pn533_usb.ko;   echo drivers/nfc/pn533/pn533_i2c.ko; :; } | awk '!x[$$0]++' - > drivers/nfc/pn533/modules.order

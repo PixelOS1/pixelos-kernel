@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-intel-sof-maxim-common.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o sound/soc/intel/boards/snd-soc-intel-sof-maxim-common.o sound/soc/intel/boards/sof_maxim_common.o

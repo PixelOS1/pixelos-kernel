@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/chromeos_pstore.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/chrome/chromeos_pstore.ko drivers/platform/chrome/chromeos_pstore.o drivers/platform/chrome/chromeos_pstore.mod.o;  true

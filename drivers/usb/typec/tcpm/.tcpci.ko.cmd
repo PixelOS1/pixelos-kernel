@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/tcpm/tcpci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/tcpm/tcpci.ko drivers/usb/typec/tcpm/tcpci.o drivers/usb/typec/tcpm/tcpci.mod.o;  true

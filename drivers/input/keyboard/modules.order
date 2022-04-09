@@ -1,0 +1,6 @@
+drivers/input/keyboard/applespi.ko
+drivers/input/keyboard/gpio_keys.ko
+drivers/input/keyboard/gpio_keys_polled.ko
+drivers/input/keyboard/qt1050.ko
+drivers/input/keyboard/qt1070.ko
+drivers/input/keyboard/tm2-touchkey.ko

@@ -1,0 +1,5 @@
+drivers/char/tpm/tpm_tis_spi.ko
+drivers/char/tpm/tpm_nsc.ko
+drivers/char/tpm/tpm_atmel.ko
+drivers/char/tpm/tpm_infineon.ko
+drivers/char/tpm/tpm_vtpm_proxy.ko

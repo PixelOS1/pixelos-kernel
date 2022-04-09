@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/snd-indigoiox.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/echoaudio/snd-indigoiox.ko sound/pci/echoaudio/snd-indigoiox.o sound/pci/echoaudio/snd-indigoiox.mod.o;  true

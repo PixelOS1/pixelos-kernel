@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/mv88e6xxx/mv88e6xxx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/mv88e6xxx/mv88e6xxx.ko drivers/net/dsa/mv88e6xxx/mv88e6xxx.o drivers/net/dsa/mv88e6xxx/mv88e6xxx.mod.o;  true

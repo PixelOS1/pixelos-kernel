@@ -1,0 +1,1 @@
+cmd_drivers/block/null_blk/null_blk.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/block/null_blk/null_blk.o drivers/block/null_blk/main.o drivers/block/null_blk/trace.o drivers/block/null_blk/zoned.o

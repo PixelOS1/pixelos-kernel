@@ -1,0 +1,1 @@
+cmd_drivers/acpi/custom_method.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/acpi/custom_method.ko drivers/acpi/custom_method.o drivers/acpi/custom_method.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/aquantia/atlantic/modules.order := {   echo drivers/net/ethernet/aquantia/atlantic/atlantic.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/aquantia/atlantic/modules.order

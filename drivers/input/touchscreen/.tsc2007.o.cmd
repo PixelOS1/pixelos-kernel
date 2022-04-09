@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc2007.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/input/touchscreen/tsc2007.o drivers/input/touchscreen/tsc2007_core.o drivers/input/touchscreen/tsc2007_iio.o

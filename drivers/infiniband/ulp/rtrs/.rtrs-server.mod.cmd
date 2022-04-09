@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/rtrs/rtrs-server.mod := { echo  drivers/infiniband/ulp/rtrs/rtrs-srv.o drivers/infiniband/ulp/rtrs/rtrs-srv-stats.o drivers/infiniband/ulp/rtrs/rtrs-srv-sysfs.o;  echo; } > drivers/infiniband/ulp/rtrs/rtrs-server.mod

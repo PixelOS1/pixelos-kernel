@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-twinhan.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-twinhan.ko drivers/hid/hid-twinhan.o drivers/hid/hid-twinhan.mod.o;  true

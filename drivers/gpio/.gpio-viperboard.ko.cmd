@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-viperboard.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-viperboard.ko drivers/gpio/gpio-viperboard.o drivers/gpio/gpio-viperboard.mod.o;  true

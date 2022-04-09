@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix_ts.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/input/touchscreen/goodix_ts.o drivers/input/touchscreen/goodix.o drivers/input/touchscreen/goodix_fwupload.o

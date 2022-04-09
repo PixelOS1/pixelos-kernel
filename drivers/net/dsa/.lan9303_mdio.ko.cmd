@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/lan9303_mdio.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/lan9303_mdio.ko drivers/net/dsa/lan9303_mdio.o drivers/net/dsa/lan9303_mdio.mod.o;  true

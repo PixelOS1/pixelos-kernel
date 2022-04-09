@@ -1,0 +1,1 @@
+cmd_drivers/uio/modules.order := {   echo drivers/uio/uio.ko;   echo drivers/uio/uio_cif.ko;   echo drivers/uio/uio_aec.ko;   echo drivers/uio/uio_sercos3.ko;   echo drivers/uio/uio_pci_generic.ko; :; } | awk '!x[$$0]++' - > drivers/uio/modules.order

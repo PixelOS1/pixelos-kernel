@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-sigmadsp-regmap.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-sigmadsp-regmap.ko sound/soc/codecs/snd-soc-sigmadsp-regmap.o sound/soc/codecs/snd-soc-sigmadsp-regmap.mod.o;  true

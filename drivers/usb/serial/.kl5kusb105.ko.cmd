@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kl5kusb105.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/kl5kusb105.ko drivers/usb/serial/kl5kusb105.o drivers/usb/serial/kl5kusb105.mod.o;  true

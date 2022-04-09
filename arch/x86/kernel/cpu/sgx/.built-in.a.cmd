@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/sgx/built-in.a := echo >/dev/null; rm -f arch/x86/kernel/cpu/sgx/built-in.a; x86_64-pc-linux-gnu-ar cDPrST arch/x86/kernel/cpu/sgx/built-in.a arch/x86/kernel/cpu/sgx/driver.o arch/x86/kernel/cpu/sgx/encl.o arch/x86/kernel/cpu/sgx/ioctl.o arch/x86/kernel/cpu/sgx/main.o

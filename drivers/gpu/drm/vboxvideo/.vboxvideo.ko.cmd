@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/vboxvideo/vboxvideo.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/vboxvideo/vboxvideo.ko drivers/gpu/drm/vboxvideo/vboxvideo.o drivers/gpu/drm/vboxvideo/vboxvideo.mod.o;  true

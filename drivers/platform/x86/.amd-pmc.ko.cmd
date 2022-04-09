@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/amd-pmc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/amd-pmc.ko drivers/platform/x86/amd-pmc.o drivers/platform/x86/amd-pmc.mod.o;  true

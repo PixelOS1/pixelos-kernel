@@ -1,0 +1,2 @@
+drivers/mtd/nand/raw/nand.ko
+drivers/mtd/nand/nandcore.ko

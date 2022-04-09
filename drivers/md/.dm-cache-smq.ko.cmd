@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-cache-smq.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-cache-smq.ko drivers/md/dm-cache-smq.o drivers/md/dm-cache-smq.mod.o;  true

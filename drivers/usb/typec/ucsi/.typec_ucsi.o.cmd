@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/ucsi/typec_ucsi.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/usb/typec/ucsi/typec_ucsi.o drivers/usb/typec/ucsi/ucsi.o drivers/usb/typec/ucsi/trace.o drivers/usb/typec/ucsi/psy.o drivers/usb/typec/ucsi/displayport.o

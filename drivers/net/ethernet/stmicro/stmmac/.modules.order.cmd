@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/modules.order := {   echo drivers/net/ethernet/stmicro/stmmac/stmmac.ko;   echo drivers/net/ethernet/stmicro/stmmac/dwmac-intel.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/stmicro/stmmac/modules.order

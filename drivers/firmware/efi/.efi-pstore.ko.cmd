@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/efi-pstore.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/firmware/efi/efi-pstore.ko drivers/firmware/efi/efi-pstore.o drivers/firmware/efi/efi-pstore.mod.o;  true

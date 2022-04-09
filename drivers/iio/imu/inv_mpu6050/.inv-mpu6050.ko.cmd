@@ -1,0 +1,1 @@
+cmd_drivers/iio/imu/inv_mpu6050/inv-mpu6050.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/imu/inv_mpu6050/inv-mpu6050.ko drivers/iio/imu/inv_mpu6050/inv-mpu6050.o drivers/iio/imu/inv_mpu6050/inv-mpu6050.mod.o;  true

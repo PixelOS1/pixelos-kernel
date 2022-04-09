@@ -1,0 +1,1 @@
+cmd_drivers/net/xen-netfront.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/xen-netfront.ko drivers/net/xen-netfront.o drivers/net/xen-netfront.mod.o;  true

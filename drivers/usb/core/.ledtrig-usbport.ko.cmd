@@ -1,0 +1,1 @@
+cmd_drivers/usb/core/ledtrig-usbport.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/core/ledtrig-usbport.ko drivers/usb/core/ledtrig-usbport.o drivers/usb/core/ledtrig-usbport.mod.o;  true

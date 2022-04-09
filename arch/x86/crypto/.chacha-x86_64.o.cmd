@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/chacha-x86_64.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o arch/x86/crypto/chacha-x86_64.o arch/x86/crypto/chacha-avx2-x86_64.o arch/x86/crypto/chacha-ssse3-x86_64.o arch/x86/crypto/chacha_glue.o arch/x86/crypto/chacha-avx512vl-x86_64.o

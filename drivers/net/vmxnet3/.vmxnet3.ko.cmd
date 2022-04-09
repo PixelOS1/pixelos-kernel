@@ -1,0 +1,1 @@
+cmd_drivers/net/vmxnet3/vmxnet3.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/vmxnet3/vmxnet3.ko drivers/net/vmxnet3/vmxnet3.o drivers/net/vmxnet3/vmxnet3.mod.o;  true

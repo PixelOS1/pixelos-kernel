@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/packetengines/modules.order := {   echo drivers/net/ethernet/packetengines/hamachi.ko;   echo drivers/net/ethernet/packetengines/yellowfin.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/packetengines/modules.order

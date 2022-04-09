@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/async_raid6_recov.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o crypto/async_tx/async_raid6_recov.ko crypto/async_tx/async_raid6_recov.o crypto/async_tx/async_raid6_recov.mod.o;  true

@@ -1,0 +1,5 @@
+drivers/tty/serial/8250/8250_exar.ko
+drivers/tty/serial/8250/serial_cs.ko
+drivers/tty/serial/8250/8250_lpss.ko
+drivers/tty/serial/jsm/jsm.ko
+drivers/tty/serial/arc_uart.ko

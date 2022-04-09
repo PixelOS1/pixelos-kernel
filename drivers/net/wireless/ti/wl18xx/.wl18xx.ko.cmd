@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl18xx/wl18xx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ti/wl18xx/wl18xx.ko drivers/net/wireless/ti/wl18xx/wl18xx.o drivers/net/wireless/ti/wl18xx/wl18xx.mod.o;  true

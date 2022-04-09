@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8723bs/r8723bs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/rtl8723bs/r8723bs.ko drivers/staging/rtl8723bs/r8723bs.o drivers/staging/rtl8723bs/r8723bs.mod.o;  true

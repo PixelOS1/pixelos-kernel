@@ -1,0 +1,1 @@
+cmd_/usr/src/linux-5.17.1-gentoo-r1/tools/objtool/fixdep-in.o :=  x86_64-pc-linux-gnu-ld -r -o /usr/src/linux-5.17.1-gentoo-r1/tools/objtool/fixdep-in.o  /usr/src/linux-5.17.1-gentoo-r1/tools/objtool/fixdep.o

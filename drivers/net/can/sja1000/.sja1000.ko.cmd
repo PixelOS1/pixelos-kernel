@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/sja1000.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/can/sja1000/sja1000.ko drivers/net/can/sja1000/sja1000.o drivers/net/can/sja1000/sja1000.mod.o;  true

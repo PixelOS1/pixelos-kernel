@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/igorplugusb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/igorplugusb.ko drivers/media/rc/igorplugusb.o drivers/media/rc/igorplugusb.mod.o;  true

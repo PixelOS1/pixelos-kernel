@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-amd-mp2-plat.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-amd-mp2-plat.ko drivers/i2c/busses/i2c-amd-mp2-plat.o drivers/i2c/busses/i2c-amd-mp2-plat.mod.o;  true

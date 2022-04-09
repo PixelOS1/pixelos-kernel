@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/wcn36xx/wcn36xx.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/wireless/ath/wcn36xx/wcn36xx.o drivers/net/wireless/ath/wcn36xx/main.o drivers/net/wireless/ath/wcn36xx/dxe.o drivers/net/wireless/ath/wcn36xx/txrx.o drivers/net/wireless/ath/wcn36xx/smd.o drivers/net/wireless/ath/wcn36xx/pmc.o drivers/net/wireless/ath/wcn36xx/debug.o

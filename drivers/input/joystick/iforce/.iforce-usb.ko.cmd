@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce-usb.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/iforce/iforce-usb.ko drivers/input/joystick/iforce/iforce-usb.o drivers/input/joystick/iforce/iforce-usb.mod.o;  true

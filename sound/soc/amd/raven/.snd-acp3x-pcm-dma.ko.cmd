@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/raven/snd-acp3x-pcm-dma.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/raven/snd-acp3x-pcm-dma.ko sound/soc/amd/raven/snd-acp3x-pcm-dma.o sound/soc/amd/raven/snd-acp3x-pcm-dma.mod.o;  true

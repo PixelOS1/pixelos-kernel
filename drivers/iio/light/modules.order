@@ -1,0 +1,17 @@
+drivers/iio/light/acpi-als.ko
+drivers/iio/light/bh1750.ko
+drivers/iio/light/cm32181.ko
+drivers/iio/light/hid-sensor-als.ko
+drivers/iio/light/lv0104cs.ko
+drivers/iio/light/max44009.ko
+drivers/iio/light/opt3001.ko
+drivers/iio/light/pa12203001.ko
+drivers/iio/light/rpr0521.ko
+drivers/iio/light/stk3310.ko
+drivers/iio/light/st_uvis25_core.ko
+drivers/iio/light/st_uvis25_i2c.ko
+drivers/iio/light/st_uvis25_spi.ko
+drivers/iio/light/tsl2772.ko
+drivers/iio/light/vcnl4035.ko
+drivers/iio/light/vl6180.ko
+drivers/iio/light/zopt2201.ko

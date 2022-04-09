@@ -1,0 +1,1 @@
+cmd_drivers/net/appletalk/ipddp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/appletalk/ipddp.ko drivers/net/appletalk/ipddp.o drivers/net/appletalk/ipddp.mod.o;  true

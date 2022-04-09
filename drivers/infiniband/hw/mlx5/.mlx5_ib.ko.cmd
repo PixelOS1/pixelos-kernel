@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/mlx5/mlx5_ib.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/mlx5/mlx5_ib.ko drivers/infiniband/hw/mlx5/mlx5_ib.o drivers/infiniband/hw/mlx5/mlx5_ib.mod.o;  true

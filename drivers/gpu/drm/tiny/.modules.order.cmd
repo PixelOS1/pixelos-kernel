@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/modules.order := {   echo drivers/gpu/drm/tiny/bochs.ko;   echo drivers/gpu/drm/tiny/cirrus.ko;   echo drivers/gpu/drm/tiny/gm12u320.ko; :; } | awk '!x[$$0]++' - > drivers/gpu/drm/tiny/modules.order

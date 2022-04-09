@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/modules.order := {   cat drivers/ntb/hw/amd/modules.order;   cat drivers/ntb/hw/idt/modules.order;   cat drivers/ntb/hw/intel/modules.order;   cat drivers/ntb/hw/mscc/modules.order; :; } | awk '!x[$$0]++' - > drivers/ntb/hw/modules.order

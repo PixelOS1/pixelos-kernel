@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/arcxcnn_bl.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/arcxcnn_bl.ko drivers/video/backlight/arcxcnn_bl.o drivers/video/backlight/arcxcnn_bl.mod.o;  true

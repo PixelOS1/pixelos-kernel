@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/scheduler/gpu-sched.ko drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu-sched.mod.o;  true

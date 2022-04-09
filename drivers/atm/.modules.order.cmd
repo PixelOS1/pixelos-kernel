@@ -1,0 +1,1 @@
+cmd_drivers/atm/modules.order := {   echo drivers/atm/nicstar.ko;   echo drivers/atm/eni.ko;   echo drivers/atm/suni.ko;   echo drivers/atm/solos-pci.ko;   echo drivers/atm/atmtcp.ko;   echo drivers/atm/firestream.ko;   echo drivers/atm/he.ko; :; } | awk '!x[$$0]++' - > drivers/atm/modules.order

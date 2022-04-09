@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-imon-rsc.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-imon-rsc.ko drivers/media/rc/keymaps/rc-imon-rsc.o drivers/media/rc/keymaps/rc-imon-rsc.mod.o;  true

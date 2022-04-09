@@ -1,0 +1,173 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0x2a0fd129, "kmalloc_caches" },
+	{ 0xe2c17b5d, "__SCT__might_resched" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0x7381287f, "trace_handle_return" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x349cba85, "strchr" },
+	{ 0x688e72e1, "__SCT__preempt_schedule_notrace" },
+	{ 0x7aa1756e, "kvfree" },
+	{ 0xccf2840, "param_get_int" },
+	{ 0xee111615, "param_ops_int" },
+	{ 0x44cf8cf0, "blk_zone_cond_str" },
+	{ 0x1220c6a8, "badblocks_clear" },
+	{ 0x7f1218d3, "blk_queue_max_hw_sectors" },
+	{ 0xef34bf3e, "hrtimer_active" },
+	{ 0x828e22f4, "hrtimer_forward" },
+	{ 0xfd0f5141, "badblocks_check" },
+	{ 0xad73041f, "autoremove_wake_function" },
+	{ 0x9c5937c, "blk_cleanup_disk" },
+	{ 0x46a4b118, "hrtimer_cancel" },
+	{ 0xd2237016, "radix_tree_delete_item" },
+	{ 0x606db81c, "blk_mq_start_request" },
+	{ 0x2211a4c0, "blk_op_str" },
+	{ 0x4d4d7b79, "blk_mq_map_queues" },
+	{ 0xec01f426, "config_item_put" },
+	{ 0xe13d4cbe, "alloc_pages" },
+	{ 0x78c2054, "param_ops_bool" },
+	{ 0xba8305fa, "config_item_init_type_name" },
+	{ 0x720a27a7, "__register_blkdev" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0xf89f4a1e, "trace_event_buffer_reserve" },
+	{ 0xa22a144f, "blk_queue_chunk_sectors" },
+	{ 0x4629334c, "__preempt_count" },
+	{ 0x8f1c07f, "blk_mq_complete_request" },
+	{ 0x7a2af7b4, "cpu_number" },
+	{ 0x97651e6c, "vmemmap_base" },
+	{ 0xc751da51, "blk_queue_virt_boundary" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x7de8ba75, "blk_mq_update_nr_hw_queues" },
+	{ 0x580c7919, "bpf_trace_run3" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0x5c3c7387, "kstrtoull" },
+	{ 0x3c5d543a, "hrtimer_start_range_ns" },
+	{ 0xfb578fc5, "memset" },
+	{ 0xb4afa678, "blk_queue_set_zoned" },
+	{ 0x706c5a65, "preempt_count_sub" },
+	{ 0x124bad4d, "kstrtobool" },
+	{ 0xc23477d, "current_task" },
+	{ 0x612bfd89, "errno_to_blk_status" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x5a5a2271, "__cpu_online_mask" },
+	{ 0x9a00dbc1, "blk_queue_max_discard_sectors" },
+	{ 0xdaada13, "del_gendisk" },
+	{ 0x75587220, "blk_mq_free_tag_set" },
+	{ 0xc917e655, "debug_smp_processor_id" },
+	{ 0xffb7c514, "ida_free" },
+	{ 0x45bfb450, "blk_mq_stop_hw_queues" },
+	{ 0x1a79c8e9, "__x86_indirect_thunk_r13" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x84a32be5, "trace_event_reg" },
+	{ 0x4b750f53, "_raw_spin_unlock_irq" },
+	{ 0x93a6e0b2, "io_schedule" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x292d5851, "set_capacity" },
+	{ 0x8c8569cb, "kstrtoint" },
+	{ 0x22b63fdd, "configfs_register_subsystem" },
+	{ 0x5f19be99, "blk_revalidate_disk_zones" },
+	{ 0xf5d8db67, "blk_mq_start_stopped_hw_queues" },
+	{ 0xc62664f0, "perf_trace_run_bpf_submit" },
+	{ 0xad5f0017, "perf_trace_buf_alloc" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0xd1f93394, "bio_endio" },
+	{ 0x9eacf8a5, "kstrndup" },
+	{ 0xb5a459dc, "unregister_blkdev" },
+	{ 0x599fb41c, "kvmalloc_node" },
+	{ 0x7cd8d75e, "page_offset_base" },
+	{ 0x3b689112, "blk_queue_flag_clear" },
+	{ 0x6b27729b, "radix_tree_gang_lookup" },
+	{ 0x21075824, "__free_pages" },
+	{ 0x7fde4ef0, "kmem_cache_alloc_node_trace" },
+	{ 0x4d31f48f, "blk_queue_flag_set" },
+	{ 0x8d729c39, "blk_queue_max_zone_append_sectors" },
+	{ 0xb6a78589, "badblocks_show" },
+	{ 0x38e7cfc2, "blk_queue_physical_block_size" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x38fc56cb, "badblocks_init" },
+	{ 0x8427cc7b, "_raw_spin_lock_irq" },
+	{ 0x92997ed8, "_printk" },
+	{ 0x1b5f4377, "trace_seq_putc" },
+	{ 0x65487097, "__x86_indirect_thunk_rax" },
+	{ 0x531580ce, "blk_mq_end_request_batch" },
+	{ 0x5912468f, "trace_event_buffer_commit" },
+	{ 0xce226563, "blk_mq_alloc_tag_set" },
+	{ 0x49ad35e8, "configfs_unregister_subsystem" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x36912036, "blk_queue_required_elevator_features" },
+	{ 0xf414a440, "kmem_cache_alloc_trace" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0x545f9a57, "__blk_mq_alloc_disk" },
+	{ 0xb19a5453, "__per_cpu_offset" },
+	{ 0xef31f042, "blk_mq_end_request" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0xde056ade, "bpf_trace_run2" },
+	{ 0x70647d8d, "blk_queue_write_cache" },
+	{ 0xa4490f7d, "badblocks_exit" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x3b6c41ea, "kstrtouint" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x52fa9ef2, "trace_event_raw_init" },
+	{ 0xd5fd90f1, "prepare_to_wait" },
+	{ 0x7b37d4a7, "_find_first_zero_bit" },
+	{ 0x2d0684a9, "hrtimer_init" },
+	{ 0x32ce3777, "radix_tree_preload" },
+	{ 0x82c87ad5, "nr_online_nodes" },
+	{ 0x2c4a8d94, "trace_event_printf" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x70ad75fb, "radix_tree_lookup" },
+	{ 0x72d0c8ab, "__trace_trigger_soft_disabled" },
+	{ 0x48d88a2c, "__SCT__preempt_schedule" },
+	{ 0x12997e37, "badblocks_set" },
+	{ 0xc6e2f879, "trace_raw_output_prep" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x2dc6b6ad, "device_add_disk" },
+	{ 0x525d0aa3, "trace_seq_printf" },
+	{ 0xd35341ff, "blkdev_nr_zones" },
+	{ 0x77bc13a0, "strim" },
+	{ 0xf229424a, "preempt_count_add" },
+	{ 0x728fda38, "blk_queue_logical_block_size" },
+	{ 0x6fbc6a00, "radix_tree_insert" },
+	{ 0x60a293d7, "param_ops_ulong" },
+	{ 0x73fec674, "param_ops_uint" },
+	{ 0x1b7be489, "config_group_init" },
+	{ 0xe7a02573, "ida_alloc_range" },
+	{ 0xe102faa1, "__blk_alloc_disk" },
+};
+
+MODULE_INFO(depends, "configfs");
+
+
+MODULE_INFO(srcversion, "343A6B3F05F04BAB0DC8D35");

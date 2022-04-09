@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-konepure.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-konepure.ko drivers/hid/hid-roccat-konepure.o drivers/hid/hid-roccat-konepure.mod.o;  true

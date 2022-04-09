@@ -1,0 +1,1 @@
+cmd_drivers/mtd/devices/block2mtd.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mtd/devices/block2mtd.ko drivers/mtd/devices/block2mtd.o drivers/mtd/devices/block2mtd.mod.o;  true

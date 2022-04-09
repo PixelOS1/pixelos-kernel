@@ -1,0 +1,1 @@
+cmd_sound/pci/emu10k1/modules.order := {   echo sound/pci/emu10k1/snd-emu10k1.ko;   echo sound/pci/emu10k1/snd-emu10k1-synth.ko;   echo sound/pci/emu10k1/snd-emu10k1x.ko; :; } | awk '!x[$$0]++' - > sound/pci/emu10k1/modules.order

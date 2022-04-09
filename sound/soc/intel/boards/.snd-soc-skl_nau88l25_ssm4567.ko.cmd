@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-skl_nau88l25_ssm4567.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-skl_nau88l25_ssm4567.ko sound/soc/intel/boards/snd-soc-skl_nau88l25_ssm4567.o sound/soc/intel/boards/snd-soc-skl_nau88l25_ssm4567.mod.o;  true

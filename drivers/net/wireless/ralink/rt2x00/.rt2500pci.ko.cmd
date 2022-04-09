@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ralink/rt2x00/rt2500pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ralink/rt2x00/rt2500pci.ko drivers/net/wireless/ralink/rt2x00/rt2500pci.o drivers/net/wireless/ralink/rt2x00/rt2500pci.mod.o;  true

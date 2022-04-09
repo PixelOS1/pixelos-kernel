@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/smsc/smsc9420.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/smsc/smsc9420.ko drivers/net/ethernet/smsc/smsc9420.o drivers/net/ethernet/smsc/smsc9420.mod.o;  true

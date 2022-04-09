@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_par.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/hamradio/baycom_par.ko drivers/net/hamradio/baycom_par.o drivers/net/hamradio/baycom_par.mod.o;  true

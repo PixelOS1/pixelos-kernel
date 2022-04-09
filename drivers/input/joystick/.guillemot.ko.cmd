@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/guillemot.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/guillemot.ko drivers/input/joystick/guillemot.o drivers/input/joystick/guillemot.mod.o;  true

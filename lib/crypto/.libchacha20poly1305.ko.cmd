@@ -1,0 +1,1 @@
+cmd_lib/crypto/libchacha20poly1305.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o lib/crypto/libchacha20poly1305.ko lib/crypto/libchacha20poly1305.o lib/crypto/libchacha20poly1305.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/cxgbi/modules.order := {   echo drivers/scsi/cxgbi/libcxgbi.ko;   cat drivers/scsi/cxgbi/cxgb3i/modules.order;   cat drivers/scsi/cxgbi/cxgb4i/modules.order; :; } | awk '!x[$$0]++' - > drivers/scsi/cxgbi/modules.order

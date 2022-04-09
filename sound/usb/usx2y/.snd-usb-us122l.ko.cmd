@@ -1,0 +1,1 @@
+cmd_sound/usb/usx2y/snd-usb-us122l.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/usb/usx2y/snd-usb-us122l.ko sound/usb/usx2y/snd-usb-us122l.o sound/usb/usx2y/snd-usb-us122l.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/rtrs/modules.order := {   echo drivers/infiniband/ulp/rtrs/rtrs-core.ko;   echo drivers/infiniband/ulp/rtrs/rtrs-client.ko;   echo drivers/infiniband/ulp/rtrs/rtrs-server.ko; :; } | awk '!x[$$0]++' - > drivers/infiniband/ulp/rtrs/modules.order

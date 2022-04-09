@@ -1,0 +1,1 @@
+cmd_drivers/nvdimm/modules.order := {   echo drivers/nvdimm/libnvdimm.ko;   echo drivers/nvdimm/nd_pmem.ko;   echo drivers/nvdimm/nd_btt.ko;   echo drivers/nvdimm/nd_blk.ko;   echo drivers/nvdimm/nd_e820.ko; :; } | awk '!x[$$0]++' - > drivers/nvdimm/modules.order

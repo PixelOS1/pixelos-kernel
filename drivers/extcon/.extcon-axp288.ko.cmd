@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-axp288.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/extcon/extcon-axp288.ko drivers/extcon/extcon-axp288.o drivers/extcon/extcon-axp288.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/atm/modules.order := {   echo net/atm/atm.ko;   echo net/atm/clip.ko;   echo net/atm/br2684.ko;   echo net/atm/lec.ko;   echo net/atm/pppoatm.ko; :; } | awk '!x[$$0]++' - > net/atm/modules.order

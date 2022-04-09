@@ -1,0 +1,1 @@
+cmd_drivers/net/pcs/pcs_xpcs.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/pcs/pcs_xpcs.ko drivers/net/pcs/pcs_xpcs.o drivers/net/pcs/pcs_xpcs.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/i2c-slave-eeprom.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/i2c-slave-eeprom.ko drivers/i2c/i2c-slave-eeprom.o drivers/i2c/i2c-slave-eeprom.mod.o;  true

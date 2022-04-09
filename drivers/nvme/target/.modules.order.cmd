@@ -1,0 +1,1 @@
+cmd_drivers/nvme/target/modules.order := {   echo drivers/nvme/target/nvmet.ko;   echo drivers/nvme/target/nvme-loop.ko;   echo drivers/nvme/target/nvmet-rdma.ko;   echo drivers/nvme/target/nvmet-fc.ko;   echo drivers/nvme/target/nvme-fcloop.ko;   echo drivers/nvme/target/nvmet-tcp.ko; :; } | awk '!x[$$0]++' - > drivers/nvme/target/modules.order

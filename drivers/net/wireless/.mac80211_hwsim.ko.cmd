@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mac80211_hwsim.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mac80211_hwsim.ko drivers/net/wireless/mac80211_hwsim.o drivers/net/wireless/mac80211_hwsim.mod.o;  true

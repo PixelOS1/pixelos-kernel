@@ -1,0 +1,1 @@
+cmd_drivers/acpi/apei/built-in.a := echo >/dev/null; rm -f drivers/acpi/apei/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/acpi/apei/built-in.a drivers/acpi/apei/apei-base.o drivers/acpi/apei/hest.o drivers/acpi/apei/erst.o drivers/acpi/apei/bert.o drivers/acpi/apei/ghes.o

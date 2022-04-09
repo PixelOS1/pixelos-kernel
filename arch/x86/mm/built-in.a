@@ -1,0 +1,65 @@
+!<thin>
+//                                              396       `
+init.o/
+init_64.o/
+fault.o/
+ioremap.o/
+extable.o/
+mmap.o/
+pgtable.o/
+physaddr.o/
+setup_nx.o/
+tlb.o/
+cpu_entry_area.o/
+maccess.o/
+pat/set_memory.o/
+pat/memtype.o/
+pat/memtype_interval.o/
+hugetlbpage.o/
+dump_pagetables.o/
+kmmio.o/
+pf_in.o/
+mmio-mod.o/
+numa.o/
+numa_64.o/
+amdtopology.o/
+srat.o/
+pkeys.o/
+kaslr.o/
+pti.o/
+mem_encrypt.o/
+mem_encrypt_amd.o/
+mem_encrypt_identity.o/
+mem_encrypt_boot.o/
+
+/0              0           0     0     644     39424     `
+/8              0           0     0     644     92904     `
+/19             0           0     0     644     56088     `
+/28             0           0     0     644     33136     `
+/39             0           0     0     644     10232     `
+/50             0           0     0     644     7272      `
+/58             0           0     0     644     31384     `
+/69             0           0     0     644     4152      `
+/81             0           0     0     644     3848      `
+/93             0           0     0     644     49448     `
+/100            0           0     0     644     65016     `
+/118            0           0     0     644     2112      `
+/129            0           0     0     644     98120     `
+/147            0           0     0     644     41968     `
+/162            0           0     0     644     9368      `
+/186            0           0     0     644     6768      `
+/201            0           0     0     644     16696     `
+/220            0           0     0     644     28824     `
+/229            0           0     0     644     8216      `
+/238            0           0     0     644     24872     `
+/250            0           0     0     644     135688    `
+/258            0           0     0     644     1776      `
+/269            0           0     0     644     5472      `
+/284            0           0     0     644     5744      `
+/292            0           0     0     644     8792      `
+/301            0           0     0     644     9872      `
+/310            0           0     0     644     22200     `
+/317            0           0     0     644     4512      `
+/332            0           0     0     644     19040     `
+/351            0           0     0     644     4202552   `
+/375            0           0     0     644     1944      `

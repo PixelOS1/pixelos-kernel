@@ -1,0 +1,1 @@
+cmd_drivers/scsi/sym53c8xx_2/sym53c8xx.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/sym53c8xx_2/sym53c8xx.ko drivers/scsi/sym53c8xx_2/sym53c8xx.o drivers/scsi/sym53c8xx_2/sym53c8xx.mod.o;  true

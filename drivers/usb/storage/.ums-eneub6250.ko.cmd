@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-eneub6250.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-eneub6250.ko drivers/usb/storage/ums-eneub6250.o drivers/usb/storage/ums-eneub6250.mod.o;  true

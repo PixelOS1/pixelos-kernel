@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/raid6test.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o crypto/async_tx/raid6test.ko crypto/async_tx/raid6test.o crypto/async_tx/raid6test.mod.o;  true

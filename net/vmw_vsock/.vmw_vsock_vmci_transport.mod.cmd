@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/vmw_vsock_vmci_transport.mod := { echo  net/vmw_vsock/vmci_transport.o net/vmw_vsock/vmci_transport_notify.o net/vmw_vsock/vmci_transport_notify_qstate.o;  echo; } > net/vmw_vsock/vmw_vsock_vmci_transport.mod

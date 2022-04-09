@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/rtl8150.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/rtl8150.ko drivers/net/usb/rtl8150.o drivers/net/usb/rtl8150.mod.o;  true

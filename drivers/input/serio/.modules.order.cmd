@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/modules.order := {   echo drivers/input/serio/serio_raw.ko;   echo drivers/input/serio/altera_ps2.ko;   echo drivers/input/serio/arc_ps2.ko; :; } | awk '!x[$$0]++' - > drivers/input/serio/modules.order

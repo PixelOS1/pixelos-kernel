@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-purpletv.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-purpletv.ko drivers/media/rc/keymaps/rc-purpletv.o drivers/media/rc/keymaps/rc-purpletv.mod.o;  true

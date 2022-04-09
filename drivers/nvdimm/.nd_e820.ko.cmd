@@ -1,0 +1,1 @@
+cmd_drivers/nvdimm/nd_e820.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/nvdimm/nd_e820.ko drivers/nvdimm/nd_e820.o drivers/nvdimm/nd_e820.mod.o;  true

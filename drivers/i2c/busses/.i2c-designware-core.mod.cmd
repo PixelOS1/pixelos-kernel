@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-designware-core.mod := { echo  drivers/i2c/busses/i2c-designware-common.o drivers/i2c/busses/i2c-designware-master.o drivers/i2c/busses/i2c-designware-slave.o;  echo; } > drivers/i2c/busses/i2c-designware-core.mod

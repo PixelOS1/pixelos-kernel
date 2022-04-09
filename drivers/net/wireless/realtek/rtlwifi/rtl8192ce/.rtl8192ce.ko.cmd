@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.o drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.mod.o;  true

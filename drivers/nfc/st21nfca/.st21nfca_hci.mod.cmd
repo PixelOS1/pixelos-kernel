@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st21nfca/st21nfca_hci.mod := { echo  drivers/nfc/st21nfca/core.o drivers/nfc/st21nfca/dep.o drivers/nfc/st21nfca/se.o drivers/nfc/st21nfca/vendor_cmds.o;  echo; } > drivers/nfc/st21nfca/st21nfca_hci.mod

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ch9200.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/ch9200.ko drivers/net/usb/ch9200.o drivers/net/usb/ch9200.mod.o;  true

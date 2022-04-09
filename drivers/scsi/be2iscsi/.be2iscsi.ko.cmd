@@ -1,0 +1,1 @@
+cmd_drivers/scsi/be2iscsi/be2iscsi.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/be2iscsi/be2iscsi.ko drivers/scsi/be2iscsi/be2iscsi.o drivers/scsi/be2iscsi/be2iscsi.mod.o;  true

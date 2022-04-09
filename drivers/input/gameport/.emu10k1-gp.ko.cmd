@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/emu10k1-gp.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/gameport/emu10k1-gp.ko drivers/input/gameport/emu10k1-gp.o drivers/input/gameport/emu10k1-gp.mod.o;  true

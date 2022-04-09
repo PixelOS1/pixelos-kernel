@@ -1,0 +1,1 @@
+cmd_drivers/iio/trigger/iio-trig-interrupt.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/trigger/iio-trig-interrupt.ko drivers/iio/trigger/iio-trig-interrupt.o drivers/iio/trigger/iio-trig-interrupt.mod.o;  true

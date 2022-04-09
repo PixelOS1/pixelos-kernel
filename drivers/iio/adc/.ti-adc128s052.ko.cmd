@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti-adc128s052.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/ti-adc128s052.ko drivers/iio/adc/ti-adc128s052.o drivers/iio/adc/ti-adc128s052.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/ad5272.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/potentiometer/ad5272.ko drivers/iio/potentiometer/ad5272.o drivers/iio/potentiometer/ad5272.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ax88179_178a.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/ax88179_178a.ko drivers/net/usb/ax88179_178a.o drivers/net/usb/ax88179_178a.mod.o;  true

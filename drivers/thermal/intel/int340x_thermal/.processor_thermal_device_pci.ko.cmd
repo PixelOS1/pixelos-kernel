@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci.ko drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci.o drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci.mod.o;  true

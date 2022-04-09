@@ -1,0 +1,1 @@
+cmd_drivers/usb/early/built-in.a := echo >/dev/null; rm -f drivers/usb/early/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/usb/early/built-in.a drivers/usb/early/ehci-dbgp.o drivers/usb/early/xhci-dbc.o

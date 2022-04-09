@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/3com/modules.order := {   echo drivers/net/ethernet/3com/3c589_cs.ko;   echo drivers/net/ethernet/3com/3c574_cs.ko;   echo drivers/net/ethernet/3com/3c59x.ko;   echo drivers/net/ethernet/3com/typhoon.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/3com/modules.order

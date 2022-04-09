@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mscc/mscc.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/net/phy/mscc/mscc.o drivers/net/phy/mscc/mscc_main.o drivers/net/phy/mscc/mscc_serdes.o drivers/net/phy/mscc/mscc_macsec.o drivers/net/phy/mscc/mscc_ptp.o

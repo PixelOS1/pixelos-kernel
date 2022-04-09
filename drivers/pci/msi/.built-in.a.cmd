@@ -1,0 +1,1 @@
+cmd_drivers/pci/msi/built-in.a := echo >/dev/null; rm -f drivers/pci/msi/built-in.a; x86_64-pc-linux-gnu-ar cDPrST drivers/pci/msi/built-in.a drivers/pci/msi/pcidev_msi.o drivers/pci/msi/msi.o drivers/pci/msi/irqdomain.o

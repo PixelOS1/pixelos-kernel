@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/vl6180.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/vl6180.ko drivers/iio/light/vl6180.o drivers/iio/light/vl6180.mod.o;  true

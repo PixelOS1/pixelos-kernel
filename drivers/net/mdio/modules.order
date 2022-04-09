@@ -1,0 +1,5 @@
+drivers/net/mdio/acpi_mdio.ko
+drivers/net/mdio/fwnode_mdio.ko
+drivers/net/mdio/mdio-bcm-unimac.ko
+drivers/net/mdio/mdio-bitbang.ko
+drivers/net/mdio/mdio-i2c.ko

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko drivers/net/wireless/realtek/rtlwifi/rtl_pci.o drivers/net/wireless/realtek/rtlwifi/rtl_pci.mod.o;  true

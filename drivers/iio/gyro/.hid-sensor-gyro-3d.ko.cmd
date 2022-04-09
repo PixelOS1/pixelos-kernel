@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/hid-sensor-gyro-3d.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/gyro/hid-sensor-gyro-3d.ko drivers/iio/gyro/hid-sensor-gyro-3d.o drivers/iio/gyro/hid-sensor-gyro-3d.mod.o;  true

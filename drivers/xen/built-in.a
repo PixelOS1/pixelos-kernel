@@ -1,0 +1,64 @@
+!<thin>
+//                                              530       `
+cpu_hotplug.o/
+grant-table.o/
+features.o/
+balloon.o/
+manage.o/
+time.o/
+mem-reservation.o/
+events/events_base.o/
+events/events_2l.o/
+events/events_fifo.o/
+xenbus/xenbus_client.o/
+xenbus/xenbus_comms.o/
+xenbus/xenbus_xs.o/
+xenbus/xenbus_probe.o/
+xenbus/xenbus_probe_backend.o/
+xenbus/xenbus_dev_frontend.o/
+xenbus/xenbus_dev_backend.o/
+xenbus/xenbus_probe_frontend.o/
+pci.o/
+dbgp.o/
+acpi.o/
+xen-acpi-pad.o/
+pcpu.o/
+biomerge.o/
+xen-balloon.o/
+sys-hypervisor.o/
+platform-pci.o/
+swiotlb-xen.o/
+efi.o/
+xlate_mmu.o/
+unpopulated-alloc.o/
+/0              0           0     0     644     8088      `
+/15             0           0     0     644     92968     `
+/30             0           0     0     644     4376      `
+/42             0           0     0     644     24864     `
+/53             0           0     0     644     20952     `
+/63             0           0     0     644     9768      `
+/71             0           0     0     644     9664      `
+/90             0           0     0     644     110136    `
+/112            0           0     0     644     16112     `
+/132            0           0     0     644     16208     `
+/154            0           0     0     644     48624     `
+/178            0           0     0     644     14784     `
+/201            0           0     0     644     52088     `
+/221            0           0     0     644     58136     `
+/244            0           0     0     644     17128     `
+/275            0           0     0     644     21664     `
+/305            0           0     0     644     7152      `
+/334            0           0     0     644     26384     `
+/366            0           0     0     644     12568     `
+/373            0           0     0     644     2792      `
+/381            0           0     0     644     3256      `
+/389            0           0     0     644     7488      `
+/405            0           0     0     644     11528     `
+/413            0           0     0     644     2856      `
+/425            0           0     0     644     12472     `
+/440            0           0     0     644     21992     `
+/458            0           0     0     644     8152      `
+/474            0           0     0     644     35896     `
+/489            0           0     0     644     9264      `
+/496            0           0     0     644     16040     `
+/509            0           0     0     644     12040     `

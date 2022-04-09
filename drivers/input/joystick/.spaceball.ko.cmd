@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/spaceball.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/spaceball.ko drivers/input/joystick/spaceball.o drivers/input/joystick/spaceball.mod.o;  true

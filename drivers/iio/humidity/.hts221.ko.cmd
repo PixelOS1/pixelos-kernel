@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/hts221.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/humidity/hts221.ko drivers/iio/humidity/hts221.o drivers/iio/humidity/hts221.mod.o;  true

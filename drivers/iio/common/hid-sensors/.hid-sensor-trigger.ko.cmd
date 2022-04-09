@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/hid-sensors/hid-sensor-trigger.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/common/hid-sensors/hid-sensor-trigger.ko drivers/iio/common/hid-sensors/hid-sensor-trigger.o drivers/iio/common/hid-sensors/hid-sensor-trigger.mod.o;  true

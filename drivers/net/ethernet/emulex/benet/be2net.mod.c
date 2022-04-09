@@ -1,0 +1,211 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x83976aaf, "module_layout" },
+	{ 0x609f1c7e, "synchronize_net" },
+	{ 0x84dcf661, "netdev_info" },
+	{ 0x2a0fd129, "kmalloc_caches" },
+	{ 0x485b75ad, "pci_write_config_dword" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0xc684a80a, "put_devmap_managed_page" },
+	{ 0xe5855ceb, "pci_enable_sriov" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x41c9ce68, "_dev_printk" },
+	{ 0x72b9627d, "napi_disable" },
+	{ 0x754d539c, "strlen" },
+	{ 0x90a8acca, "pci_sriov_set_totalvfs" },
+	{ 0x3ee07f3c, "napi_schedule_prep" },
+	{ 0x8f996a30, "ethtool_convert_legacy_u32_to_link_mode" },
+	{ 0xa3c11bf8, "dma_set_mask" },
+	{ 0xd5652091, "pci_disable_device" },
+	{ 0xc7a4fbed, "rtnl_lock" },
+	{ 0x677eba74, "pci_disable_msix" },
+	{ 0x11af727b, "netif_carrier_on" },
+	{ 0xc3690fc, "_raw_spin_lock_bh" },
+	{ 0xebb49c23, "pci_disable_sriov" },
+	{ 0x7605b39d, "__hw_addr_sync_dev" },
+	{ 0x6ece8090, "skb_clone" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0x82bf3377, "netif_carrier_off" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0xe13d4cbe, "alloc_pages" },
+	{ 0x11752b6c, "__dev_kfree_skb_any" },
+	{ 0xeae3dfd6, "__const_udelay" },
+	{ 0x3c3cb4a8, "pci_release_regions" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0xc6468b1b, "pci_enable_wake" },
+	{ 0xaf8b32c5, "dma_free_attrs" },
+	{ 0xc38259af, "__this_cpu_preempt_check" },
+	{ 0x97651e6c, "vmemmap_base" },
+	{ 0x274dc2b, "netif_get_num_default_rss_queues" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x3e53ff7e, "dma_set_coherent_mask" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0xb86f74c5, "free_cpumask_var" },
+	{ 0xcb36fc86, "__netdev_alloc_skb" },
+	{ 0x4aafecd0, "netif_tx_lock" },
+	{ 0xddd727e4, "__pskb_pull_tail" },
+	{ 0x25974000, "wait_for_completion" },
+	{ 0xa193af22, "pci_set_master" },
+	{ 0xd8f50b20, "_dev_warn" },
+	{ 0xa7299ff3, "pci_enable_pcie_error_reporting" },
+	{ 0x3da7657, "dma_sync_single_for_cpu" },
+	{ 0xe7e75334, "netif_tx_wake_queue" },
+	{ 0xe0fde42, "pci_restore_state" },
+	{ 0x47c53a64, "pci_iounmap" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x89940875, "mutex_lock_interruptible" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xb2e60a53, "netif_set_xps_queue" },
+	{ 0x7ffd81fe, "ethtool_op_get_link" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0x3c3fce39, "__local_bh_enable_ip" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x449ad0a7, "memcmp" },
+	{ 0x452ba683, "ipv6_ext_hdr" },
+	{ 0xa50a3da7, "_find_next_bit" },
+	{ 0xc917e655, "debug_smp_processor_id" },
+	{ 0x4c9d28b0, "phys_base" },
+	{ 0xcd279169, "nla_find" },
+	{ 0xda59b65, "free_netdev" },
+	{ 0xff80f59, "zalloc_cpumask_var" },
+	{ 0x133536b8, "register_netdev" },
+	{ 0xb4df3926, "netif_receive_skb" },
+	{ 0x2170e6d, "napi_enable" },
+	{ 0x248d35c7, "dma_alloc_attrs" },
+	{ 0x459f3f88, "skb_push" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x9f0537a8, "kfree_skb_reason" },
+	{ 0x1da2875e, "netif_set_real_num_rx_queues" },
+	{ 0x42a6f0, "netif_set_real_num_tx_queues" },
+	{ 0x935525f9, "netif_napi_add" },
+	{ 0x92d5838e, "request_threaded_irq" },
+	{ 0x28b7b84a, "softnet_data" },
+	{ 0x8af62e49, "_dev_err" },
+	{ 0x199c4833, "__irq_apply_affinity_hint" },
+	{ 0xc8a91f5b, "cpumask_local_spread" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0xe523ad75, "synchronize_irq" },
+	{ 0x7cd8d75e, "page_offset_base" },
+	{ 0xd4bb08ea, "netif_device_attach" },
+	{ 0x40a4c25b, "_dev_info" },
+	{ 0xfebd599, "__hw_addr_unsync_dev" },
+	{ 0x6c21ae75, "netif_device_detach" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x9ee5e79e, "pci_enable_msix_range" },
+	{ 0x4e5627a1, "__napi_schedule" },
+	{ 0xe46021ca, "_raw_spin_unlock_bh" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x92997ed8, "_printk" },
+	{ 0x2777e4f6, "napi_complete_done" },
+	{ 0xff1aff93, "dma_map_page_attrs" },
+	{ 0x65487097, "__x86_indirect_thunk_rax" },
+	{ 0xfab07106, "pci_read_config_dword" },
+	{ 0xb2d2ed3, "eth_type_trans" },
+	{ 0x554e6897, "dev_addr_mod" },
+	{ 0xf08c4261, "dev_driver_string" },
+	{ 0x4acd1352, "pskb_expand_head" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x467df16d, "netdev_rss_key_fill" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x6dfc7bec, "pci_unregister_driver" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0xf414a440, "kmem_cache_alloc_trace" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0x63bf1840, "netif_tx_unlock" },
+	{ 0x41176a05, "__netif_napi_del" },
+	{ 0x20589002, "udp_tunnel_nic_ops" },
+	{ 0xc3055d20, "usleep_range_state" },
+	{ 0x2c460a2b, "eth_validate_addr" },
+	{ 0x3cf47bb0, "pci_disable_pcie_error_reporting" },
+	{ 0xff59ec38, "pci_sriov_get_totalvfs" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x4ea591a4, "___pskb_trim" },
+	{ 0x4aded579, "pci_request_regions" },
+	{ 0xd4ba1b3f, "pci_num_vf" },
+	{ 0xe0befba6, "__pci_register_driver" },
+	{ 0x1564421, "request_firmware" },
+	{ 0xd72e1b44, "dma_unmap_page_attrs" },
+	{ 0x608741b5, "__init_swait_queue_head" },
+	{ 0xee586da4, "napi_get_frags" },
+	{ 0xe09786fd, "unregister_netdev" },
+	{ 0xc1535c2d, "ndo_dflt_bridge_getlink" },
+	{ 0xa3db4c4, "dump_page" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0xde491932, "pci_vfs_assigned" },
+	{ 0xa6257a2f, "complete" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xb0e602eb, "memmove" },
+	{ 0x607013d5, "pci_iomap" },
+	{ 0x5d1688fc, "consume_skb" },
+	{ 0xcd9dd851, "param_ops_ushort" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x4a453f53, "iowrite32" },
+	{ 0xc60d0620, "__num_online_cpus" },
+	{ 0xf229424a, "preempt_count_add" },
+	{ 0xa5008494, "pci_enable_device" },
+	{ 0x4a3ad70e, "wait_for_completion_timeout" },
+	{ 0x73fec674, "param_ops_uint" },
+	{ 0x938aecd6, "skb_copy_bits" },
+	{ 0x49cd25ed, "alloc_workqueue" },
+	{ 0xc6d09aa9, "release_firmware" },
+	{ 0x6e720ff2, "rtnl_unlock" },
+	{ 0xc60c7e0c, "__put_page" },
+	{ 0x522543a2, "napi_gro_frags" },
+	{ 0xa78af5f3, "ioread32" },
+	{ 0xd44b38f4, "__skb_pad" },
+	{ 0xc31db0ce, "is_vmalloc_addr" },
+	{ 0xc1514a3b, "free_irq" },
+	{ 0xe9a18439, "pci_save_state" },
+	{ 0x587f22d7, "devmap_managed_key" },
+	{ 0xe2ff3c5, "alloc_etherdev_mqs" },
+};
+
+MODULE_INFO(depends, "");
+
+MODULE_ALIAS("pci:v000019A2d00000211sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000019A2d00000700sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000019A2d00000221sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000019A2d00000710sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000010DFd0000E220sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000010DFd0000E228sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000010DFd00000720sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v000010DFd00000728sv*sd*bc*sc*i*");
+
+MODULE_INFO(srcversion, "9ED5761D183BD3926B549A1");

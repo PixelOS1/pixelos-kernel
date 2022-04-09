@@ -1,0 +1,45 @@
+!<thin>
+//                                              280       `
+scsi.o/
+hosts.o/
+scsi_ioctl.o/
+scsicam.o/
+scsi_error.o/
+scsi_lib.o/
+constants.o/
+scsi_lib_dma.o/
+scsi_scan.o/
+scsi_sysfs.o/
+scsi_devinfo.o/
+scsi_netlink.o/
+scsi_sysctl.o/
+scsi_proc.o/
+scsi_debugfs.o/
+scsi_trace.o/
+scsi_logging.o/
+scsi_pm.o/
+scsi_dh.o/
+scsi_bsg.o/
+scsi_common.o/
+
+/0              0           0     0     644     88200     `
+/8              0           0     0     644     31736     `
+/17             0           0     0     644     26264     `
+/31             0           0     0     644     8800      `
+/42             0           0     0     644     70928     `
+/56             0           0     0     644     106968    `
+/68             0           0     0     644     54040     `
+/81             0           0     0     644     3984      `
+/97             0           0     0     644     52208     `
+/110            0           0     0     644     72376     `
+/124            0           0     0     644     43752     `
+/140            0           0     0     644     6360      `
+/156            0           0     0     644     3264      `
+/171            0           0     0     644     15352     `
+/184            0           0     0     644     3880      `
+/200            0           0     0     644     5848      `
+/214            0           0     0     644     27872     `
+/230            0           0     0     644     18600     `
+/241            0           0     0     644     19984     `
+/252            0           0     0     644     5224      `
+/264            0           0     0     644     13952     `

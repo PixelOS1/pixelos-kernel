@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/belkin_sa.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/belkin_sa.ko drivers/usb/serial/belkin_sa.o drivers/usb/serial/belkin_sa.mod.o;  true

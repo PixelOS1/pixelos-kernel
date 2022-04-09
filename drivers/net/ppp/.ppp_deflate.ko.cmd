@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/ppp_deflate.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/ppp_deflate.ko drivers/net/ppp/ppp_deflate.o drivers/net/ppp/ppp_deflate.mod.o;  true

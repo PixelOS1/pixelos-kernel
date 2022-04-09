@@ -1,0 +1,1 @@
+cmd_drivers/memstick/host/rtsx_pci_ms.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/memstick/host/rtsx_pci_ms.ko drivers/memstick/host/rtsx_pci_ms.o drivers/memstick/host/rtsx_pci_ms.mod.o;  true

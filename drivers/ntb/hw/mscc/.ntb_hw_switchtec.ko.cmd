@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/mscc/ntb_hw_switchtec.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ntb/hw/mscc/ntb_hw_switchtec.ko drivers/ntb/hw/mscc/ntb_hw_switchtec.o drivers/ntb/hw/mscc/ntb_hw_switchtec.mod.o;  true

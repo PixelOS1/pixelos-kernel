@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_user.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/target/target_core_user.ko drivers/target/target_core_user.o drivers/target/target_core_user.mod.o;  true

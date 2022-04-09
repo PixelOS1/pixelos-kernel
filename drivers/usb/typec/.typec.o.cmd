@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/typec.o := x86_64-pc-linux-gnu-ld -m elf_x86_64   -r -o drivers/usb/typec/typec.o drivers/usb/typec/class.o drivers/usb/typec/mux.o drivers/usb/typec/bus.o drivers/usb/typec/port-mapper.o

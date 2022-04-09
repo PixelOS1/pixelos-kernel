@@ -1,0 +1,1 @@
+cmd_sound/firewire/fireface/snd-fireface.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/firewire/fireface/snd-fireface.ko sound/firewire/fireface/snd-fireface.o sound/firewire/fireface/snd-fireface.mod.o;  true

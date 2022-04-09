@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib0090.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/dib0090.ko drivers/media/dvb-frontends/dib0090.o drivers/media/dvb-frontends/dib0090.mod.o;  true

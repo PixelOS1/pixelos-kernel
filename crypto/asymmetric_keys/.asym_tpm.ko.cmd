@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/asym_tpm.ko := x86_64-pc-linux-gnu-ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o crypto/asymmetric_keys/asym_tpm.ko crypto/asymmetric_keys/asym_tpm.o crypto/asymmetric_keys/asym_tpm.mod.o;  true
